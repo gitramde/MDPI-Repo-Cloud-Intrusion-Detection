@@ -134,7 +134,7 @@ The full-data supervised evaluation includes:
 - XGBoost (XGB)
 - Multilayer Perceptron (MLP)
 
-All final models use five fixed training seeds: `42`, `123`, `456`, `789`, and `1024`.
+All final models are evaluated using five fixed training seeds: 42, 123, 456, 789, and 1024.
 
 The endpoint graph model is **GATv2**, with **Edge MLP** and **Self-only GAT** controls on the February-20 **Benign versus DDoS attacks-LOIC-HTTP** benchmark. Temporal comparisons are **Transformer-L1 versus Transformer-L64** on the Phase-5 matched cohort and **graph-temporal L1 versus L8** on the February-20 cohort. The graph-temporal heads reuse a same-seed frozen graph encoder.
 
@@ -216,3 +216,8 @@ reuse. A fresh-environment end-to-end reproduction has not been verified.
 - Validation-selected false-positive caps do not guarantee the same test FPR or
   the FPR of OR fusion. Runtime comparisons require matching cohorts and stages.
 - Explainability was outside the completed evaluation.
+
+## License
+
+The repository code is available under the [MIT License](LICENSE).
+The CSE-CIC-IDS2018 dataset is distributed separately under its own terms.
