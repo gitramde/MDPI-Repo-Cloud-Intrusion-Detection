@@ -1,0 +1,9 @@
+{
+  "approval_source": "User replied yes to explicit 10:30/11:00 split approval question",
+  "approved": true,
+  "boundaries": [
+    "2018-02-20 10:30:00",
+    "2018-02-20 11:00:00"
+  ],
+  "proposal_sha256": "593589f8f9c387ae65bde0ec4c837d297615f25223434db13b5614004cdd3259"
+}

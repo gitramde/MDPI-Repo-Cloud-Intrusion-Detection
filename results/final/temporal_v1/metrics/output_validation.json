@@ -1,0 +1,23 @@
+{
+  "baseline_snapshot_sha256": "8900cb92e35e7eea28f8fb3ada09ef47c6e75f54877891bcbac5e69d6f1e2999",
+  "checked_at_utc": "2026-09-21T03:00:35Z",
+  "checks": {
+    "chronological_order_verified": true,
+    "common_target_records_across_lengths": true,
+    "full_frozen_hash_verification": true,
+    "labels_metadata_only": true,
+    "matched_baseline_targets": true,
+    "no_1970": true,
+    "no_day_crossing": true,
+    "no_future_flow": true,
+    "no_partition_crossing": true,
+    "phase4_and_phase4a_unchanged": true,
+    "preprocessing_train_fitted_only": true,
+    "targets_and_families_excluded_from_features": true,
+    "test_excluded_from_selection": true,
+    "thresholds_and_selected_models_verified": true,
+    "timestamps_ordering_only": true
+  },
+  "status": "PASS",
+  "threshold_lock_sha256": "a12bb5a38b724a1efc8ee6d6574dfade6674c90ed180d791cf3fac0afe924502"
+}

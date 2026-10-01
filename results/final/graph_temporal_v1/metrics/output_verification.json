@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "saved source-row cohort exact",
+    "minute/partition/completion constraints",
+    "pair and endpoint identity",
+    "frozen graph representation classifier replay",
+    "all saved metrics recomputed",
+    "validation FPR cap",
+    "capacity counts",
+    "prior artifacts unchanged"
+  ],
+  "equal_head_parameters": 89089,
+  "graph_classifier_replay_max_abs_difference": 2.9103830456733704e-11,
+  "matched_targets": 474357,
+  "protected_files": 480,
+  "status": "PASS"
+}

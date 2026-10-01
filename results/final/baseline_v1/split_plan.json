@@ -1,0 +1,193 @@
+{
+  "exact_row_rule": "Each listed source file: discard complete repeated headers; retain the earliest original source_row for each exact full parsed record; exclude nonmatching dates/invalid timestamps from temporal partitions. Every retained source_row is enumerated in the hashed membership Parquet.",
+  "limitations": [
+    "Attack types occur on different dates; a globally chronological split cannot cover every attack type in every partition.",
+    "Unseen attack types remain positive binary targets and are explicitly reported; this is a temporal generalization evaluation, not a closed-set multiclass claim.",
+    "Feature statistics and preprocessing are not used to select date boundaries. Labels are used only for this predeclared cohort-design report."
+  ],
+  "ordering": [
+    "recorded_timestamp_ascending",
+    "source_filename_ascending",
+    "original_source_row_ascending"
+  ],
+  "partitions": {
+    "test": {
+      "class_counts": {
+        "Benign": 998793,
+        "Bot": 282310,
+        "Infilteration": 93040
+      },
+      "dates": [
+        "2018-03-01",
+        "2018-03-02"
+      ],
+      "files": [
+        {
+          "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet",
+          "cleaned_sha256": "802cedc1871324f3003cd85f63d8c3b1b4003869fe97ef76ef9abfe253d4ea48",
+          "filename": "Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv",
+          "raw_sha256": "b0534c5d7d8b41e03df71c6966c995d116a8ed28e61f377c8b14cdf5d28f4edf",
+          "rows": 331027
+        },
+        {
+          "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet",
+          "cleaned_sha256": "bf8b4e4f5264fa362d3f59737717977cf7e960e03c1f34125c52034b631b4cd6",
+          "filename": "Friday-02-03-2018_TrafficForML_CICFlowMeter.csv",
+          "raw_sha256": "d96f38e7496aba83475031e6fb8c6fdf1abf6aa1b71325a917798f3c7de93de1",
+          "rows": 1043116
+        }
+      ],
+      "interval_end_exclusive": "2018-03-03T00:00:00",
+      "interval_start_inclusive": "2018-03-01T00:00:00",
+      "membership_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\membership\\test.parquet",
+      "membership_sha256": "c51988409cf084b0656f7985a2a51c44aac5944f357c01356e5c21b5999eb95b",
+      "rows": 1374143,
+      "timestamp_max": "2018-03-02T12:59:59",
+      "timestamp_min": "2018-03-01T01:00:00",
+      "unseen_attack_classes": [
+        "Bot",
+        "Infilteration"
+      ]
+    },
+    "train": {
+      "class_counts": {
+        "Benign": 10885643,
+        "Brute Force -Web": 249,
+        "Brute Force -XSS": 79,
+        "DDOS attack-HOIC": 668461,
+        "DDOS attack-LOIC-UDP": 1730,
+        "DDoS attacks-LOIC-HTTP": 576191,
+        "DoS attacks-GoldenEye": 41455,
+        "DoS attacks-Hulk": 434873,
+        "DoS attacks-SlowHTTPTest": 19462,
+        "DoS attacks-Slowloris": 10285,
+        "FTP-BruteForce": 39352,
+        "SQL Injection": 34,
+        "SSH-Bruteforce": 117322
+      },
+      "dates": [
+        "2018-02-14",
+        "2018-02-15",
+        "2018-02-16",
+        "2018-02-20",
+        "2018-02-21",
+        "2018-02-22"
+      ],
+      "files": [
+        {
+          "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet",
+          "cleaned_sha256": "d6fc7e25cdcc99c11835395317ce7195bc453905a69d4a5e3ae2369c41b0670d",
+          "filename": "Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv",
+          "raw_sha256": "acff8bc61376ee031d80878ee6099e0b1a87a1bd711d8068298421418c9f8147",
+          "rows": 822942
+        },
+        {
+          "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet",
+          "cleaned_sha256": "f412998558ac29e6e063e831158b8c75a65f5116cd3d7047450929200fd55acc",
+          "filename": "Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv",
+          "raw_sha256": "fa2947a8256d81ee9103ae16139d62d0e17aa23e696ee80d9e76fb51c01c9c4b",
+          "rows": 1046154
+        },
+        {
+          "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet",
+          "cleaned_sha256": "118d1d5604994e5a9c643f3fd041135245a82a090096c8b597cfa1964db581e1",
+          "filename": "Friday-16-02-2018_TrafficForML_CICFlowMeter.csv",
+          "raw_sha256": "1a4919faa0c49c7af97230b0c2d076eba23ee6dd81103a3801d51ac316355d8b",
+          "rows": 900988
+        },
+        {
+          "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Thuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet",
+          "cleaned_sha256": "13f86441342466c1e4bf0a01cf5d7b04b22f6138b392bda114eb7b52fe24cd93",
+          "filename": "Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv",
+          "raw_sha256": "7287a4d7740a1dddbf330ceb2beb6a4889d33ba63674558a68b5eb50d16711df",
+          "rows": 7948746
+        },
+        {
+          "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet",
+          "cleaned_sha256": "d289537700c0b6b8d78a7b06acd89dcdf3e34732316d2d1ffbf33ccf816a9204",
+          "filename": "Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv",
+          "raw_sha256": "a5f4a1c2689e0aa6566c03a58466de9c407c0be0cbd3cc69306544026611be04",
+          "rows": 1031018
+        },
+        {
+          "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet",
+          "cleaned_sha256": "a51c836af9ba68783318a4097851d1d9080ffe1b4c5cb0c39c96c98b6951b52e",
+          "filename": "Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv",
+          "raw_sha256": "da33c927018274f9d49b145baa00e4ce0526c25b3b890b34c489e247b5e24544",
+          "rows": 1045288
+        }
+      ],
+      "interval_end_exclusive": "2018-02-23T00:00:00",
+      "interval_start_inclusive": "2018-02-14T00:00:00",
+      "membership_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\membership\\train.parquet",
+      "membership_sha256": "3478533e80f58c092372361051d9f7b83199f284a5d57af2549f6d74051e9ecd",
+      "rows": 12795136,
+      "timestamp_max": "2018-02-22T12:59:59",
+      "timestamp_min": "2018-02-14T01:00:00",
+      "unseen_attack_classes": []
+    },
+    "validation": {
+      "class_counts": {
+        "Benign": 1583520,
+        "Brute Force -Web": 362,
+        "Brute Force -XSS": 151,
+        "Infilteration": 68857,
+        "SQL Injection": 53
+      },
+      "dates": [
+        "2018-02-23",
+        "2018-02-28"
+      ],
+      "files": [
+        {
+          "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet",
+          "cleaned_sha256": "50098b4f1562d49685c4e8b1d56da9626f70cddc0cfbf5b5b3710d4c6d6ad2f8",
+          "filename": "Friday-23-02-2018_TrafficForML_CICFlowMeter.csv",
+          "raw_sha256": "d0a7f5059d9823b6e9b392b759e306481a3502d190dea7a1b5502ae079ea069b",
+          "rows": 1045961
+        },
+        {
+          "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet",
+          "cleaned_sha256": "f1634b9f95e837d851ea18e9810122b116d8eddc9b5caeb9c13c6c0c54f2781b",
+          "filename": "Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv",
+          "raw_sha256": "f15e2a12304446058a0186c8ad67de2bd15735a9ba5c70c9a1f4c4242ab06771",
+          "rows": 606982
+        }
+      ],
+      "interval_end_exclusive": "2018-03-01T00:00:00",
+      "interval_start_inclusive": "2018-02-23T00:00:00",
+      "membership_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\membership\\validation.parquet",
+      "membership_sha256": "2bdd932fb3155c492619faf9a01af18e6862b13e8b72225f61cc6ead36084f28",
+      "rows": 1652943,
+      "timestamp_max": "2018-02-28T12:59:59",
+      "timestamp_min": "2018-02-23T01:00:00",
+      "unseen_attack_classes": [
+        "Infilteration"
+      ]
+    }
+  },
+  "pre_split_class_report": "pre_split_class_distribution.csv",
+  "pre_split_report_sha256": "ca607efa06bc3c08e6a6481a32cbf53ffdbdb7f45085d4a092b44cda89f7d854",
+  "schema_version": 1,
+  "selection": "Whole dates only. Require configured benign/malicious minimums. Maximize training attack-class coverage, then minimize L1 deviation from configured row fractions; chronological cutoffs break ties.",
+  "selection_spec": {
+    "minimum_benign_per_partition": 100,
+    "minimum_malicious_per_partition": 100,
+    "minimum_test_dates": 2,
+    "minimum_train_dates": 3,
+    "minimum_validation_dates": 1,
+    "target_fractions": [
+      0.8,
+      0.1,
+      0.1
+    ]
+  },
+  "source_manifest_sha256": "cbdad0dadd1964f461cde88a6c16a400a7a07bb35bb6e9a3dfbec715ef0253a4",
+  "status": "split_frozen",
+  "target": "binary",
+  "target_mapping": {
+    "Benign": 0,
+    "all_observed_attack_labels": 1
+  },
+  "timestamp_interpretation": "Day-first, timezone unspecified. No AM/PM reconstruction; ordering is by recorded timestamps, not claimed physical capture chronology."
+}

@@ -1,0 +1,20 @@
+{
+  "executed_epochs": 3,
+  "length": 1,
+  "model": "gat_transformer_L1",
+  "model_sha256": "bafa0b45f69b6783799a82b81850600934ae54eb76f46d89e09e7d8a631775b1",
+  "model_size_bytes": 366762,
+  "peak_memory_bytes": 803659776,
+  "positive_class_weight": 36.38577912254161,
+  "protocol_sha256": "6bbcc817f600371a2b348b6703926b9a0dd40bb34e1d775dce60218f195f27fb",
+  "representation_manifest_sha256": "92c6d9ff548eb6025d387c94c3039bf4d386b22e4f6b9a892cf4af02dc8bb41b",
+  "seed": 42,
+  "selected_epoch": 1,
+  "selected_validation_macro_f1": 0.9999170934865753,
+  "status": "complete",
+  "trainable_parameters": 89089,
+  "training_seconds": 12.366932000000133,
+  "training_targets": 172984,
+  "validation_prediction_sha256": "afb2c058a419d8d731de1a30c3b15375058291bd86afdc493c55b43304f48534",
+  "validation_selection_seconds": 1.5621997999999166
+}

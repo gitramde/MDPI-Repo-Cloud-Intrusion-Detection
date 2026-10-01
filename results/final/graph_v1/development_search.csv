@@ -1,0 +1,7 @@
+dropout,heads,hidden,kind,layers,name,seed,window_minutes,selected_primary,validation_macro_f1,selected_epoch,executed_epochs,parameters,training_seconds,mlp_width
+0.1,4,64,gatv2,2,gatv2_w1_h64_p1,42,1,False,0.9998460356034607,2,4,32065,94.0184248000005,
+0.2,4,128,gatv2,2,gatv2_w1_h128_p2,42,1,True,0.9999289369016138,3,4,113281,141.37441300000137,
+0.2,4,128,edge_mlp,2,edge_mlp,42,1,False,0.990354459507788,3,4,113539,31.24170330000561,298
+0.2,4,128,self_only,2,gatv2_self_only,42,1,False,1.0,4,4,113281,84.80939009999565,
+0.2,4,128,gatv2,2,gatv2_w5,42,5,False,0.9999052501957044,2,4,113281,188.4168952,
+0.2,4,128,gatv2,2,gatv2_w10,42,10,False,0.9999289369016138,3,4,113281,209.62930759999654,

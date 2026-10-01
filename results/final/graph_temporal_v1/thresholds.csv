@@ -1,0 +1,16 @@
+model,criterion,threshold,selection_partition
+edge_mlp,fixed_0_5,0.5,validation
+edge_mlp,maximum_macro_f1,0.03797098249197006,validation
+edge_mlp,fpr_at_most_0.01,0.0365968756377697,validation
+gatv2_w1_h128_p2,fixed_0_5,0.5,validation
+gatv2_w1_h128_p2,maximum_macro_f1,0.9955880641937256,validation
+gatv2_w1_h128_p2,fpr_at_most_0.01,0.9955880641937256,validation
+gat_transformer_L1,fixed_0_5,0.5,validation
+gat_transformer_L1,maximum_macro_f1,0.9946208000183105,validation
+gat_transformer_L1,fpr_at_most_0.01,0.9946208000183105,validation
+gat_transformer_L4,fixed_0_5,0.5,validation
+gat_transformer_L4,maximum_macro_f1,0.9948325157165527,validation
+gat_transformer_L4,fpr_at_most_0.01,0.9948325157165527,validation
+gat_transformer_L8,fixed_0_5,0.5,validation
+gat_transformer_L8,maximum_macro_f1,0.9970107078552246,validation
+gat_transformer_L8,fpr_at_most_0.01,0.9970107078552246,validation

@@ -1,0 +1,14 @@
+{
+  "device": "cpu",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "pyarrow": "19.0.0",
+  "python": "3.13.5",
+  "scikit_learn": "1.7.2",
+  "scipy": "1.15.3",
+  "seed": 42,
+  "torch": "2.6.0+cpu",
+  "training_threads": 2,
+  "xgboost": "3.0.5"
+}

@@ -1,0 +1,6 @@
+seed,development_evidence_exists,final_rerun_required,final_status,phase10_training_performed,required_stochastic_configurations,planned_resource_conditional_configurations,configuration_change_allowed
+42,True,True,not_started_awaiting_explicit_approval,False,11,1,False
+123,False,True,not_started_awaiting_explicit_approval,False,11,1,False
+456,False,True,not_started_awaiting_explicit_approval,False,11,1,False
+789,False,True,not_started_awaiting_explicit_approval,False,11,1,False
+1024,False,True,not_started_awaiting_explicit_approval,False,11,1,False

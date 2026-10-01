@@ -1,0 +1,11 @@
+{
+  "frozen_artifacts_unchanged": true,
+  "models": [
+    "logistic_regression",
+    "random_forest",
+    "xgboost",
+    "mlp"
+  ],
+  "seed": 42,
+  "status": "PASS"
+}

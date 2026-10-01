@@ -1,0 +1,123 @@
+{
+  "rows": [
+    {
+      "criterion": "maximum_macro_f1",
+      "method": "random_forest",
+      "protocol": "B_label_aware",
+      "threshold": 0.10696382758638676
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "method": "autoencoder",
+      "protocol": "B_label_aware",
+      "threshold": 0.14403971626160014
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "method": "max",
+      "protocol": "B_label_aware",
+      "threshold": 0.9791805597655855
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "method": "weighted_0.25",
+      "protocol": "B_label_aware",
+      "threshold": 0.7542461706280282
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "method": "weighted_0.50",
+      "protocol": "B_label_aware",
+      "threshold": 0.507157630870346
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "method": "weighted_0.75",
+      "protocol": "B_label_aware",
+      "threshold": 0.27165522075139875
+    },
+    {
+      "ae_threshold": 0.2989627885301674,
+      "criterion": "paired_cap_0.01",
+      "method": "random_forest",
+      "protocol": "frozen_existing",
+      "rf_threshold": 0.17370928190063595,
+      "target_fpr": 0.01,
+      "threshold": 0.17370928190063595
+    },
+    {
+      "ae_threshold": 0.2989627885301674,
+      "criterion": "paired_cap_0.01",
+      "method": "autoencoder",
+      "protocol": "frozen_existing",
+      "rf_threshold": 0.17370928190063595,
+      "target_fpr": 0.01,
+      "threshold": 0.2989627885301674
+    },
+    {
+      "ae_threshold": 0.2989627885301674,
+      "criterion": "paired_cap_0.01",
+      "method": "or",
+      "protocol": "frozen_existing",
+      "rf_threshold": 0.17370928190063595,
+      "target_fpr": 0.01,
+      "threshold": 0.5
+    },
+    {
+      "ae_threshold": 0.3771854580469557,
+      "criterion": "paired_cap_0.005",
+      "method": "random_forest",
+      "protocol": "frozen_existing",
+      "rf_threshold": 0.2917750071534527,
+      "target_fpr": 0.005,
+      "threshold": 0.2917750071534527
+    },
+    {
+      "ae_threshold": 0.3771854580469557,
+      "criterion": "paired_cap_0.005",
+      "method": "autoencoder",
+      "protocol": "frozen_existing",
+      "rf_threshold": 0.2917750071534527,
+      "target_fpr": 0.005,
+      "threshold": 0.3771854580469557
+    },
+    {
+      "ae_threshold": 0.3771854580469557,
+      "criterion": "paired_cap_0.005",
+      "method": "or",
+      "protocol": "frozen_existing",
+      "rf_threshold": 0.2917750071534527,
+      "target_fpr": 0.005,
+      "threshold": 0.5
+    },
+    {
+      "ae_threshold": 1.1200285579471538,
+      "criterion": "paired_cap_0.001",
+      "method": "random_forest",
+      "protocol": "frozen_existing",
+      "rf_threshold": 0.7658336720257404,
+      "target_fpr": 0.001,
+      "threshold": 0.7658336720257404
+    },
+    {
+      "ae_threshold": 1.1200285579471538,
+      "criterion": "paired_cap_0.001",
+      "method": "autoencoder",
+      "protocol": "frozen_existing",
+      "rf_threshold": 0.7658336720257404,
+      "target_fpr": 0.001,
+      "threshold": 1.1200285579471538
+    },
+    {
+      "ae_threshold": 1.1200285579471538,
+      "criterion": "paired_cap_0.001",
+      "method": "or",
+      "protocol": "frozen_existing",
+      "rf_threshold": 0.7658336720257404,
+      "target_fpr": 0.001,
+      "threshold": 0.5
+    }
+  ],
+  "selection_uses_test": false,
+  "validation_infilteration_used": true
+}

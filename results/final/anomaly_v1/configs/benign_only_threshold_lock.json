@@ -1,0 +1,110 @@
+{
+  "artifacts": {
+    "autoencoder_B": {
+      "benign_validation_score_sha256": "92130e6e154f3af735de14a42a967e111659b92fc6edc524e75f3da302b806ee",
+      "model_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\anomaly_v1\\models\\autoencoder_B.pt",
+      "model_sha256": "1886ff61e1814b51ffc0a47e71ed9bdc9c41b814f0cbeea74e7344b0ec871993"
+    },
+    "isolation_forest": {
+      "benign_validation_score_sha256": "b2f479159fc222e8cd71a3ea6da5a31ce147d0428be190fce8f2c0d0c49def47",
+      "model_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\anomaly_v1\\models\\isolation_forest.joblib",
+      "model_sha256": "0dc81905ed4fbde1e172acaaf39e4612f23cafa9ad080d54a48194da12efa1b1"
+    }
+  },
+  "csv_sha256": "8a2ac8543cb16bf3e707188c544d6a16eeec83a43e2e289f4139d5bd79839b74",
+  "frozen_at_utc": "2026-09-21T12:15:54Z",
+  "malicious_validation_scores_evaluated": false,
+  "rows": [
+    {
+      "allowed_false_positives": 79176,
+      "benign_validation_N": 1583520,
+      "criterion": "benign_fpr_at_most_0.05",
+      "model": "autoencoder_B",
+      "observed_false_positives": 79173,
+      "observed_validation_fpr": 0.04999810548651106,
+      "protocol": "A_benign_only",
+      "target_fpr": 0.05,
+      "threshold": 0.03691029245411019
+    },
+    {
+      "allowed_false_positives": 15835,
+      "benign_validation_N": 1583520,
+      "criterion": "benign_fpr_at_most_0.01",
+      "model": "autoencoder_B",
+      "observed_false_positives": 15828,
+      "observed_validation_fpr": 0.009995453167626553,
+      "protocol": "A_benign_only",
+      "target_fpr": 0.01,
+      "threshold": 0.2989627885301674
+    },
+    {
+      "allowed_false_positives": 7917,
+      "benign_validation_N": 1583520,
+      "criterion": "benign_fpr_at_most_0.005",
+      "model": "autoencoder_B",
+      "observed_false_positives": 7917,
+      "observed_validation_fpr": 0.004999621097302212,
+      "protocol": "A_benign_only",
+      "target_fpr": 0.005,
+      "threshold": 0.3771854580469557
+    },
+    {
+      "allowed_false_positives": 1583,
+      "benign_validation_N": 1583520,
+      "criterion": "benign_fpr_at_most_0.001",
+      "model": "autoencoder_B",
+      "observed_false_positives": 1583,
+      "observed_validation_fpr": 0.0009996716176619179,
+      "protocol": "A_benign_only",
+      "target_fpr": 0.001,
+      "threshold": 1.1200285579471538
+    },
+    {
+      "allowed_false_positives": 79176,
+      "benign_validation_N": 1583520,
+      "criterion": "benign_fpr_at_most_0.05",
+      "model": "isolation_forest",
+      "observed_false_positives": 78776,
+      "observed_validation_fpr": 0.049747398201475196,
+      "protocol": "A_benign_only",
+      "target_fpr": 0.05,
+      "threshold": 0.5644528945765446
+    },
+    {
+      "allowed_false_positives": 15835,
+      "benign_validation_N": 1583520,
+      "criterion": "benign_fpr_at_most_0.01",
+      "model": "isolation_forest",
+      "observed_false_positives": 15834,
+      "observed_validation_fpr": 0.009999242194604425,
+      "protocol": "A_benign_only",
+      "target_fpr": 0.01,
+      "threshold": 0.6335396103319109
+    },
+    {
+      "allowed_false_positives": 7917,
+      "benign_validation_N": 1583520,
+      "criterion": "benign_fpr_at_most_0.005",
+      "model": "isolation_forest",
+      "observed_false_positives": 7916,
+      "observed_validation_fpr": 0.0049989895928059,
+      "protocol": "A_benign_only",
+      "target_fpr": 0.005,
+      "threshold": 0.6562365486127368
+    },
+    {
+      "allowed_false_positives": 1583,
+      "benign_validation_N": 1583520,
+      "criterion": "benign_fpr_at_most_0.001",
+      "model": "isolation_forest",
+      "observed_false_positives": 1582,
+      "observed_validation_fpr": 0.0009990401131656057,
+      "protocol": "A_benign_only",
+      "target_fpr": 0.001,
+      "threshold": 0.6954621292658397
+    }
+  ],
+  "selected_autoencoder_sha256": "68dca28e0b847c8d84d61e6f7865a7e5987063f52aa182db10edacfbee6b4e89",
+  "selection_uses_malicious_validation": false,
+  "selection_uses_test": false
+}

@@ -1,0 +1,35 @@
+{
+  "config": {
+    "dropout": 0.1,
+    "heads": 4,
+    "hidden": 64,
+    "kind": "gatv2",
+    "layers": 2,
+    "name": "gatv2_w1_h64_p1",
+    "seed": 42,
+    "window_minutes": 1
+  },
+  "executed_epochs": 4,
+  "model_sha256": "1cf5ae9fc8b1cf46a8ca69f89c0cbf6f598e06b541b01747a92c4277cdd96e40",
+  "model_size_bytes": 135258,
+  "parameters": 32065,
+  "peak_memory_bytes": 1210073088,
+  "positive_class_weight": 36.38577912254161,
+  "preprocessing_sha256": "ba9b94d60b81cfd664ee1a70f938fbfe17f5d137b347b8cda0a59bfbbf7082ae",
+  "protocol_sha256": "bd235df12201feb9ce43f87fde433dc764029f6cbaa8bf88756e496e2162b63e",
+  "selected_epoch": 2,
+  "selected_validation_macro_f1": 0.9998460356034607,
+  "software": {
+    "device": "cpu",
+    "numpy": "2.1.3",
+    "python": "3.13.5",
+    "threads": 2,
+    "torch": "2.6.0+cpu"
+  },
+  "stage_seconds": 103.88220630000069,
+  "status": "complete",
+  "training_seconds": 94.0184248000005,
+  "training_targets": 172984,
+  "validation_prediction_sha256": "48ec4c8b09b396d6de3b58b6be3b020b62a98e180fdc97bf6af806ed2210c903",
+  "validation_selection_seconds": 3.7450623999975505
+}

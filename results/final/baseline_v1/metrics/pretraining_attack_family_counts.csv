@@ -1,0 +1,46 @@
+partition,attack_family,records,present,training_status
+train,Benign,10885643,True,KNOWN
+train,Bot,0,False,UNSEEN
+train,Brute Force -Web,249,True,KNOWN
+train,Brute Force -XSS,79,True,KNOWN
+train,DDOS attack-HOIC,668461,True,KNOWN
+train,DDOS attack-LOIC-UDP,1730,True,KNOWN
+train,DDoS attacks-LOIC-HTTP,576191,True,KNOWN
+train,DoS attacks-GoldenEye,41455,True,KNOWN
+train,DoS attacks-Hulk,434873,True,KNOWN
+train,DoS attacks-SlowHTTPTest,19462,True,KNOWN
+train,DoS attacks-Slowloris,10285,True,KNOWN
+train,FTP-BruteForce,39352,True,KNOWN
+train,Infilteration,0,False,UNSEEN
+train,SQL Injection,34,True,KNOWN
+train,SSH-Bruteforce,117322,True,KNOWN
+validation,Benign,1583520,True,KNOWN
+validation,Bot,0,False,UNSEEN
+validation,Brute Force -Web,362,True,KNOWN
+validation,Brute Force -XSS,151,True,KNOWN
+validation,DDOS attack-HOIC,0,False,KNOWN
+validation,DDOS attack-LOIC-UDP,0,False,KNOWN
+validation,DDoS attacks-LOIC-HTTP,0,False,KNOWN
+validation,DoS attacks-GoldenEye,0,False,KNOWN
+validation,DoS attacks-Hulk,0,False,KNOWN
+validation,DoS attacks-SlowHTTPTest,0,False,KNOWN
+validation,DoS attacks-Slowloris,0,False,KNOWN
+validation,FTP-BruteForce,0,False,KNOWN
+validation,Infilteration,68857,True,UNSEEN
+validation,SQL Injection,53,True,KNOWN
+validation,SSH-Bruteforce,0,False,KNOWN
+test,Benign,998793,True,KNOWN
+test,Bot,282310,True,UNSEEN
+test,Brute Force -Web,0,False,KNOWN
+test,Brute Force -XSS,0,False,KNOWN
+test,DDOS attack-HOIC,0,False,KNOWN
+test,DDOS attack-LOIC-UDP,0,False,KNOWN
+test,DDoS attacks-LOIC-HTTP,0,False,KNOWN
+test,DoS attacks-GoldenEye,0,False,KNOWN
+test,DoS attacks-Hulk,0,False,KNOWN
+test,DoS attacks-SlowHTTPTest,0,False,KNOWN
+test,DoS attacks-Slowloris,0,False,KNOWN
+test,FTP-BruteForce,0,False,KNOWN
+test,Infilteration,93040,True,UNSEEN
+test,SQL Injection,0,False,KNOWN
+test,SSH-Bruteforce,0,False,KNOWN

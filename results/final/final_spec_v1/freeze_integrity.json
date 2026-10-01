@@ -1,0 +1,20 @@
+{
+  "execution_authorized": false,
+  "final_output_hashes": {
+    "FINAL_EXPERIMENT_SPEC.md": "3078b0c2eec8378708d3f19fe4e1a13148107ababd8806839d16379a3afb46e6",
+    "artifact_hash_manifest.csv": "384904d39ad96fe65626ebfb531507e2637fc9a62dc25c3307fb0b2b67dd391b",
+    "claim_freeze.md": "7cd7a74e920236e3cd82aafb6474a03339ed4482f8ccbd514e36deabcf9377ba",
+    "final_experiment_spec.json": "cc82c594cf336e36a0b89b67683783d1f6b45f3050310189543e506c935d1dfb",
+    "final_run_plan.md": "cc2dae1eee0305bee91e6d8068990f5ad158c53a304dd6cc804b56600644c807",
+    "integrity_report.md": "887a54fbc4ba152fca5a1d31d9179ddde9cff58a3b423811f79f40429e56b9bf",
+    "metric_definitions.md": "6471e2285e50d2ff7e562c01a6f13fb7f722cba695ef5b579c66789060061d5e",
+    "model_registry.csv": "50c8b0f2a4eca57d497261e3e6fae7bf529139ca07f3810e9f8b3f351bfe2ade",
+    "research_questions.md": "8a4113e2708b599b94048b296071128ed3b36ea0e3a3ea29b88fc32a56d84531",
+    "seed_registry.csv": "fa12e621ac8f38f50ca695ff80f6bca7dcbc34df0404ac881db58583137964a3"
+  },
+  "historical_hash_matches": 539,
+  "prior_artifacts_unchanged": true,
+  "protected_files": 592,
+  "status": "PASS",
+  "training_performed": false
+}

@@ -1,0 +1,37 @@
+{
+  "csv_sha256": "7bf18d2a98a3d753e8109f8a571efb13c46239dafc718859da69fb33a5cea3ec",
+  "frozen_at_utc": "2026-09-21T12:26:26Z",
+  "protocol_A_lock_sha256": "246097f2eb8aa5cb49e408fc9df6bce8f6fe96c753df89aee25322d4e56e7329",
+  "rows": [
+    {
+      "criterion": "maximum_macro_f1",
+      "model": "autoencoder_B",
+      "protocol": "B_label_aware",
+      "threshold": 0.14403971626160014
+    },
+    {
+      "criterion": "maximum_binary_f1",
+      "model": "autoencoder_B",
+      "protocol": "B_label_aware",
+      "threshold": 0.012906889129616624
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "model": "isolation_forest",
+      "protocol": "B_label_aware",
+      "threshold": 0.5779130511261703
+    },
+    {
+      "criterion": "maximum_binary_f1",
+      "model": "isolation_forest",
+      "protocol": "B_label_aware",
+      "threshold": 0.4285798256609946
+    }
+  ],
+  "selection_uses_test": false,
+  "validation_infilteration_is_used_for_calibration": true,
+  "validation_score_hashes": {
+    "autoencoder_B": "01b23efe6f9d70e341205c6933fd8bbf8c829495d11c4540c1d7653cff921dee",
+    "isolation_forest": "5051bcf5d2e131e87b1ac2d57b68efe31e3f216da4536bfcde2c32caba37bf98"
+  }
+}

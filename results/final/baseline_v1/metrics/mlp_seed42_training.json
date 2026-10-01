@@ -1,0 +1,28 @@
+{
+  "class_weight_strategy": "global inverse-frequency training sample weights",
+  "config_sha256": "5e83fb814608a0104a29e6d35669bad0ef1477d64a3e04ee4b8c47d0e7402681",
+  "environment": {
+    "numpy": "2.1.3",
+    "python": "3.13.5",
+    "sklearn": "1.7.2",
+    "xgboost": "3.0.5"
+  },
+  "executed_steps": 3,
+  "memory_scope": "worker peak RSS/Windows peak working set, including training and validation selection",
+  "model": "mlp",
+  "model_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\models\\mlp_seed42.joblib",
+  "model_sha256": "2ebbecc8cadc315455fcbf527ae45d206aff6fabffc80e008ddb11299f89a1ad",
+  "model_size_bytes": 117146,
+  "peak_memory_bytes": 4661055488,
+  "phase": "development",
+  "seed": 42,
+  "selected_step": 1,
+  "selected_validation_macro_f1": 0.49474263910520994,
+  "selection_seconds": 25.395013700001073,
+  "status": "complete",
+  "threshold": 0.5,
+  "train_rows": 12795136,
+  "training_row_visits": 38385408,
+  "training_seconds": 98.01262510000015,
+  "training_stage_wall_seconds": 123.88716810000005
+}

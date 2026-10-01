@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "all_predeclared_rules_reported": true,
+    "all_record_correlations": true,
+    "benign_only_primary_calibration": true,
+    "frozen_scores_only": true,
+    "full_membership_and_label_alignment": true,
+    "historical_hashes_verified": true,
+    "no_retraining": true,
+    "no_test_selection": true,
+    "prior_artifacts_unchanged": true,
+    "validation_only_secondary": true
+  },
+  "protected_files": 447,
+  "source_sha256": {
+    "__init__.py": "8a1415861a8b0436c17cb978a5f94a4bf95c5e53751c77a907bc27756e9da0c2",
+    "run.py": "0a851f504dc2c9173c9d099f2ae85ab4a2413b39ff23d29703f13f589277c406",
+    "test_fusion.py": "9124474e19a11e5a70b01664812584156796648932ac0563d7654cf867a561de",
+    "verify.py": "811577d84e5270aeabf110d1d53a1f8942310923ec89df3528f500fcdee13281"
+  },
+  "status": "PASS"
+}

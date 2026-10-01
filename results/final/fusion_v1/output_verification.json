@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "24 benign-only operating points",
+    "39 settings per partition",
+    "full-cohort confusion counts",
+    "family counts reconcile",
+    "overlap counts reconcile",
+    "frozen standalone metrics reproduce Phase7",
+    "all protected artifact hashes unchanged"
+  ],
+  "status": "PASS"
+}

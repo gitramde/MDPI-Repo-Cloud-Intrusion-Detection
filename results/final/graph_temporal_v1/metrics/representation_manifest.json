@@ -1,0 +1,30 @@
+{
+  "encoder_sha256": "d6dc00de50e196ec4f1689d7f5180ac3d92b9e8bf4974264af104562f655b0a1",
+  "labels_excluded_from_representations": true,
+  "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\graph_temporal_v1\\metrics\\representations.npy",
+  "peak_memory_bytes": 1787011072,
+  "sha256": "4397974b61c87aa15eb6ff137bc0ab26ca1db8909a0d848719ca2435e531e091",
+  "timings": [
+    {
+      "graph_encoder_seconds": 8.270212799993715,
+      "graph_preparation_seconds": 2.233699100001786,
+      "partition": "train",
+      "records": 172984,
+      "representation_seconds": 10.50685999999996
+    },
+    {
+      "graph_encoder_seconds": 0.9373760999997103,
+      "graph_preparation_seconds": 0.34264420000022255,
+      "partition": "validation",
+      "records": 88782,
+      "representation_seconds": 1.2803292000000965
+    },
+    {
+      "graph_encoder_seconds": 2.776738999999452,
+      "graph_preparation_seconds": 0.7240136000004895,
+      "partition": "test",
+      "records": 212591,
+      "representation_seconds": 3.501637899999878
+    }
+  ]
+}

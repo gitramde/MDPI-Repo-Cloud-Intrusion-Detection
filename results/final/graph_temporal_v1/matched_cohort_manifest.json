@@ -1,0 +1,29 @@
+{
+  "all_phase6_targets_retained": true,
+  "artifacts": [
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\graph_temporal_v1\\metrics\\eligible_source_rows.npy",
+      "sha256": "7efec58fc4eb4331a8c38b84f6b33ed78d0a89f58991cfa2c170afd63555769d"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\graph_temporal_v1\\metrics\\eligible_target_ids.npy",
+      "sha256": "06000e0c4b80de292acb824703ca446b1b71e8ac5a789c0d836a9038160c9664"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\graph_temporal_v1\\metrics\\history_identity_types.npy",
+      "sha256": "f16fdedeb1aa60d05eb87a5fe3d29656b86bc98de9b949c895051095e8756b64"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\graph_temporal_v1\\metrics\\history_indices.npy",
+      "sha256": "e07c965ad8e8b0a421a0167460033acaa4f8f9bcb4bb739bfa79ec739290f1b7"
+    }
+  ],
+  "partitions": {
+    "test": 212591,
+    "train": 172984,
+    "validation": 88782
+  },
+  "phase6_cohort_sha256": "9bc27a5c2700c6b17a08fccdae270cb9d6c547b2ded4b530274fe4cb37936312",
+  "rows": 474357,
+  "status": "coverage_pass_after_documented_pretraining_amendment"
+}

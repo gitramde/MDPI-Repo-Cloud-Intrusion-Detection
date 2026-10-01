@@ -1,0 +1,29 @@
+{
+  "bootstrap_draws_per_tree": 500000,
+  "class_weight_strategy": "global inverse-frequency training class weights",
+  "config_sha256": "5e83fb814608a0104a29e6d35669bad0ef1477d64a3e04ee4b8c47d0e7402681",
+  "eligible_training_rows": 12795136,
+  "environment": {
+    "numpy": "2.1.3",
+    "python": "3.13.5",
+    "sklearn": "1.7.2",
+    "xgboost": "3.0.5"
+  },
+  "executed_steps": 64,
+  "memory_scope": "worker peak RSS/Windows peak working set, including training and validation selection",
+  "model": "random_forest",
+  "model_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\models\\random_forest_seed42.joblib",
+  "model_sha256": "99c2c7d4d19b1d940115c445eb26170bb72b9cf5b5fcc8008b2eccd09532730d",
+  "model_size_bytes": 789935,
+  "peak_memory_bytes": 5318225920,
+  "phase": "development",
+  "seed": 42,
+  "selected_step": 64,
+  "selected_validation_macro_f1": 0.4907069951830314,
+  "selection_seconds": 33.883302500000354,
+  "status": "complete",
+  "threshold": 0.5,
+  "train_rows": 12795136,
+  "training_seconds": 399.23105549999855,
+  "training_stage_wall_seconds": 433.6490524000001
+}

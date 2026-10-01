@@ -1,0 +1,81 @@
+{
+  "attack_family_counts": {
+    "test": {
+      "Benign": 998793,
+      "Bot": 282310,
+      "Infilteration": 93040
+    },
+    "train": {
+      "Benign": 10885643,
+      "Brute Force -Web": 249,
+      "Brute Force -XSS": 79,
+      "DDOS attack-HOIC": 668461,
+      "DDOS attack-LOIC-UDP": 1730,
+      "DDoS attacks-LOIC-HTTP": 576191,
+      "DoS attacks-GoldenEye": 41455,
+      "DoS attacks-Hulk": 434873,
+      "DoS attacks-SlowHTTPTest": 19462,
+      "DoS attacks-Slowloris": 10285,
+      "FTP-BruteForce": 39352,
+      "SQL Injection": 34,
+      "SSH-Bruteforce": 117322
+    },
+    "validation": {
+      "Benign": 1583520,
+      "Brute Force -Web": 362,
+      "Brute Force -XSS": 151,
+      "Infilteration": 68857,
+      "SQL Injection": 53
+    }
+  },
+  "binary_counts": [
+    {
+      "benign": 10885643,
+      "malicious": 1909493,
+      "partition": "train",
+      "records": 12795136
+    },
+    {
+      "benign": 1583520,
+      "malicious": 69423,
+      "partition": "validation",
+      "records": 1652943
+    },
+    {
+      "benign": 998793,
+      "malicious": 375350,
+      "partition": "test",
+      "records": 1374143
+    }
+  ],
+  "diagnostic_codebook": [
+    "Benign",
+    "Bot",
+    "Brute Force -Web",
+    "Brute Force -XSS",
+    "DDOS attack-HOIC",
+    "DDOS attack-LOIC-UDP",
+    "DDoS attacks-LOIC-HTTP",
+    "DoS attacks-GoldenEye",
+    "DoS attacks-Hulk",
+    "DoS attacks-SlowHTTPTest",
+    "DoS attacks-Slowloris",
+    "FTP-BruteForce",
+    "Infilteration",
+    "SQL Injection",
+    "SSH-Bruteforce"
+  ],
+  "preprocessing_sha256": "7a7e15a52108b0ef165481baaf9833c88c42e8c246a612f6846db2b0f2ae565a",
+  "split_plan_sha256": "9890a711c0838190a13816736f7c099685d2c2690caa6c74afb2b217e1f7362e",
+  "status": "PASS",
+  "target": "0 benign; 1 malicious",
+  "unseen_families": {
+    "test": [
+      "Bot",
+      "Infilteration"
+    ],
+    "validation": [
+      "Infilteration"
+    ]
+  }
+}

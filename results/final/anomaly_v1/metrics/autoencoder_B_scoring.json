@@ -1,0 +1,35 @@
+{
+  "benign_calibration_scores_preserved_exactly": true,
+  "benign_replay_max_abs_difference": 3.300219083257616e-05,
+  "model": "autoencoder_B",
+  "model_sha256": "1886ff61e1814b51ffc0a47e71ed9bdc9c41b814f0cbeea74e7344b0ec871993",
+  "partitions": {
+    "test": {
+      "evaluated_records": 1374143,
+      "inference_seconds": 17.75342809999711,
+      "latency_ms_per_1000": 12.919636529820483,
+      "prediction_only_seconds": 3.206058700030553,
+      "score_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\anomaly_v1\\metrics\\autoencoder_B_test_scores.npy",
+      "score_sha256": "c5d69e0690a4c1d80a46d62bda1e09105aba6d2a6521bf641fd1b57e2151ab9b"
+    },
+    "train_benign": {
+      "evaluated_records": 10885643,
+      "inference_seconds": 40.099901800000225,
+      "latency_ms_per_1000": 3.6837421363166354,
+      "prediction_only_seconds": 29.738415600055305,
+      "score_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\anomaly_v1\\metrics\\autoencoder_B_train_benign_scores.npy",
+      "score_sha256": "bf718a436a5a6d7ae6ab4828d34c04da41cc04422e200cebc93545d704d060ff"
+    },
+    "validation": {
+      "evaluated_records": 1652943,
+      "inference_seconds": 20.579015499999514,
+      "latency_ms_per_1000": 12.449924468054563,
+      "prediction_only_seconds": 3.6654448000190314,
+      "score_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\anomaly_v1\\metrics\\autoencoder_B_validation_scores.npy",
+      "score_sha256": "01b23efe6f9d70e341205c6933fd8bbf8c829495d11c4540c1d7653cff921dee"
+    }
+  },
+  "peak_memory_bytes": 4150890496,
+  "protocol_A_lock_sha256": "246097f2eb8aa5cb49e408fc9df6bce8f6fe96c753df89aee25322d4e56e7329",
+  "same_layout_replay_exact": true
+}

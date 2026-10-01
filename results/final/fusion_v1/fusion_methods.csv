@@ -1,0 +1,8 @@
+method,formula,alpha,calibration
+random_forest,S,,A and B
+autoencoder,raw AE MSE (standalone),,A and B
+max,"max(S,A_norm)",,A and B
+weighted_0.25,alpha*S+(1-alpha)*A_norm,0.25,A and B
+weighted_0.50,alpha*S+(1-alpha)*A_norm,0.50,A and B
+weighted_0.75,alpha*S+(1-alpha)*A_norm,0.75,A and B
+or,(S>=frozen RF threshold) OR (raw AE>=frozen AE threshold),,existing mixed protocols

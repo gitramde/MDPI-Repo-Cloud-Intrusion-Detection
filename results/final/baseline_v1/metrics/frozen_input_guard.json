@@ -1,0 +1,210 @@
+{
+  "data_artifacts": [
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv",
+      "sha256": "acff8bc61376ee031d80878ee6099e0b1a87a1bd711d8068298421418c9f8147"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "sha256": "d6fc7e25cdcc99c11835395317ce7195bc453905a69d4a5e3ae2369c41b0670d"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Wednesday-14-02-2018_TrafficForML_CICFlowMeter.non_temporal.parquet",
+      "sha256": "b85b2dc8970b97f5b139d4ce8002b162102a0bf47bcbcb1cb2242bb44b7d71a5"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv",
+      "sha256": "fa2947a8256d81ee9103ae16139d62d0e17aa23e696ee80d9e76fb51c01c9c4b"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "sha256": "f412998558ac29e6e063e831158b8c75a65f5116cd3d7047450929200fd55acc"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Friday-16-02-2018_TrafficForML_CICFlowMeter.csv",
+      "sha256": "1a4919faa0c49c7af97230b0c2d076eba23ee6dd81103a3801d51ac316355d8b"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "sha256": "118d1d5604994e5a9c643f3fd041135245a82a090096c8b597cfa1964db581e1"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv",
+      "sha256": "7287a4d7740a1dddbf330ceb2beb6a4889d33ba63674558a68b5eb50d16711df"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Thuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "sha256": "13f86441342466c1e4bf0a01cf5d7b04b22f6138b392bda114eb7b52fe24cd93"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv",
+      "sha256": "a5f4a1c2689e0aa6566c03a58466de9c407c0be0cbd3cc69306544026611be04"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "sha256": "d289537700c0b6b8d78a7b06acd89dcdf3e34732316d2d1ffbf33ccf816a9204"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv",
+      "sha256": "da33c927018274f9d49b145baa00e4ce0526c25b3b890b34c489e247b5e24544"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "sha256": "a51c836af9ba68783318a4097851d1d9080ffe1b4c5cb0c39c96c98b6951b52e"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Thursday-22-02-2018_TrafficForML_CICFlowMeter.non_temporal.parquet",
+      "sha256": "ad4bda5d7c3593a10987803178f31d3443755e03da29b64599b296868f63aa5f"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Friday-23-02-2018_TrafficForML_CICFlowMeter.csv",
+      "sha256": "d0a7f5059d9823b6e9b392b759e306481a3502d190dea7a1b5502ae079ea069b"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "sha256": "50098b4f1562d49685c4e8b1d56da9626f70cddc0cfbf5b5b3710d4c6d6ad2f8"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv",
+      "sha256": "f15e2a12304446058a0186c8ad67de2bd15735a9ba5c70c9a1f4c4242ab06771"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "sha256": "f1634b9f95e837d851ea18e9810122b116d8eddc9b5caeb9c13c6c0c54f2781b"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv",
+      "sha256": "b0534c5d7d8b41e03df71c6966c995d116a8ed28e61f377c8b14cdf5d28f4edf"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet",
+      "sha256": "802cedc1871324f3003cd85f63d8c3b1b4003869fe97ef76ef9abfe253d4ea48"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Friday-02-03-2018_TrafficForML_CICFlowMeter.csv",
+      "sha256": "d96f38e7496aba83475031e6fb8c6fdf1abf6aa1b71325a917798f3c7de93de1"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet",
+      "sha256": "bf8b4e4f5264fa362d3f59737717977cf7e960e03c1f34125c52034b631b4cd6"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\membership\\train.parquet",
+      "sha256": "3478533e80f58c092372361051d9f7b83199f284a5d57af2549f6d74051e9ecd"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\membership\\validation.parquet",
+      "sha256": "2bdd932fb3155c492619faf9a01af18e6862b13e8b72225f61cc6ead36084f28"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\membership\\test.parquet",
+      "sha256": "c51988409cf084b0656f7985a2a51c44aac5944f357c01356e5c21b5999eb95b"
+    }
+  ],
+  "small_artifacts": [
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\baseline_preparation_report.md",
+      "sha256": "8dc800df3b7bc8c6e8c58d000a4afc0920b8db38c07ff30e810c3dbeda27ae22"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\cleaning_audit.csv",
+      "sha256": "46e39ad4996440f14a141132ff0bac8e9d71c9739958672cb04a36d4f70f14b3"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\cleaning_cell_audit.csv",
+      "sha256": "1e5c8e0796044229b4ed2e853e492bdf24ecd84efb87a3fd4ac140d78cf0afcd"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\cleaning_summary.csv",
+      "sha256": "7f0bf6f8523c1c0fd35c2b63c9884c4486c56c27c7d04879fe6bd596a27ad747"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\environment.json",
+      "sha256": "74e6fba2c9e61fac33e8557eb25a99dec34f02395b4dbdd6107a5e0709da8658"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\feature_exclusion_audit.csv",
+      "sha256": "23158bfcd4ef3c641d7313c6bac59399a684f92a6003fd3aae2afbd4f24e193f"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\partition_class_distribution.csv",
+      "sha256": "24dc2f422c56b2cb7a5db51c0343101286a7fd43ca257b6d23c334a34be4d584"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\pre_split_class_distribution.csv",
+      "sha256": "ca607efa06bc3c08e6a6481a32cbf53ffdbdb7f45085d4a092b44cda89f7d854"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\preprocessing.json",
+      "sha256": "7a7e15a52108b0ef165481baaf9833c88c42e8c246a612f6846db2b0f2ae565a"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\preprocessing_application_audit.csv",
+      "sha256": "8a54d2d06f7f089d6bd1cef0a86e2f2ce4ac06a8b6e175ca9527ff99c9df45d6"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\run_config.json",
+      "sha256": "98b67ef51d7a51dac069fd1c0d9c161da8dc1369367fa383dd258e425a2112fb"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\schema_exclusions.csv",
+      "sha256": "23158bfcd4ef3c641d7313c6bac59399a684f92a6003fd3aae2afbd4f24e193f"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\source_manifest.json",
+      "sha256": "cbdad0dadd1964f461cde88a6c16a400a7a07bb35bb6e9a3dfbec715ef0253a4"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\split_candidates.csv",
+      "sha256": "2f5f427554bb6143bcb7f10dcdc0b6b58e1b7e2a08729547855fee85b2eba063"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\split_plan.json",
+      "sha256": "9890a711c0838190a13816736f7c099685d2c2690caa6c74afb2b217e1f7362e"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\verification.json",
+      "sha256": "4f8c9d93732aeb57d15e8fd6f39bcabf2f47c3d2bb9d792691378c346cc470e3"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\src\\baseline\\__init__.py",
+      "sha256": "19792a19bee90a318f275ac9cd21e3c2f313bc4084314a4626e01f65e867da59"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\src\\baseline\\clean.py",
+      "sha256": "20c1d1ee9e029813ed36ed9aee94d4de9629d3bb4301be811f6d7c001b2264a6"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\src\\baseline\\common.py",
+      "sha256": "fc1d9b367cfab7ae6193b5c0bc9334fe7dc1bee0195b206d605e8badd321c2be"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\src\\baseline\\pipeline.py",
+      "sha256": "cc7e7bda99472c04609af3bf4a3f741828533468981bc2b3bfef051628e05e7b"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\src\\baseline\\preprocess.py",
+      "sha256": "6567dac27eff87515d3a7ef8d556aa4d966773c158dc53c55aa7a1d8878cb13d"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\src\\baseline\\report.py",
+      "sha256": "6724acb7d7602653891e1bcfd0ac82d5287f2624870548c51c7628072c5761ae"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\src\\baseline\\split.py",
+      "sha256": "bed22301ee057622a148afd0f782313363f3449ec2702c01e470ef083a2db561"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\src\\baseline\\test_baseline.py",
+      "sha256": "dc4016c92354d37202a193aebd2081807399b0589f589c3a3814388bc568e304"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\src\\baseline\\verify.py",
+      "sha256": "e99dc46272e73a7504fe88bc2267b8c732d8f839f50ea4b5bb5e82d60dc901cc"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\configs\\baseline.json",
+      "sha256": "9044f33821376d64b4b2e657de99b6e9c0b178d08fb22fe3fab6b68df28e31ec"
+    }
+  ]
+}

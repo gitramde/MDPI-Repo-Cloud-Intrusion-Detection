@@ -1,0 +1,40 @@
+{
+  "ablation": "same architecture and target records; only final flow with same final positional index",
+  "alternate_architecture": {
+    "d_model": 128,
+    "dropout": 0.2,
+    "heads": 4,
+    "layers": 3
+  },
+  "architecture_search": "three lengths at small architecture; one alternate architecture at validation-best length",
+  "attention": "bidirectional within historical window including current flow; no later flow is present",
+  "batch_size": 256,
+  "evaluation_stride": 8,
+  "feature_dtype": "float32",
+  "feedforward_multiplier": 2,
+  "gradient_clip_norm": 1.0,
+  "learning_rate": 0.0003,
+  "lengths": [
+    16,
+    32,
+    64
+  ],
+  "max_epochs": 3,
+  "min_improvement": 1e-05,
+  "optimizer": "AdamW",
+  "patience": 2,
+  "phase": "development",
+  "position_encoding": "fixed sinusoidal",
+  "seed": 42,
+  "selection_metric": "validation_macro_f1_at_0.5",
+  "small_architecture": {
+    "d_model": 64,
+    "dropout": 0.1,
+    "heads": 4,
+    "layers": 2
+  },
+  "threads": 2,
+  "train_stride": 128,
+  "warmup": 63,
+  "weight_decay": 0.01
+}

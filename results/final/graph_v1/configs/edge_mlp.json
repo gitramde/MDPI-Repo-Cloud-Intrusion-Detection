@@ -1,0 +1,11 @@
+{
+  "dropout": 0.2,
+  "heads": 4,
+  "hidden": 128,
+  "kind": "edge_mlp",
+  "layers": 2,
+  "mlp_width": 298,
+  "name": "edge_mlp",
+  "seed": 42,
+  "window_minutes": 1
+}

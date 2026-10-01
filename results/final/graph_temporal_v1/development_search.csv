@@ -1,0 +1,6 @@
+model,length,fitted_in_phase9,selected_epoch,executed_epochs,selected_validation_macro_f1
+edge_mlp,,False,3,4,0.990354459507788
+gatv2_w1_h128_p2,,False,3,4,0.9999289369016138
+gat_transformer_L1,1,True,1,3,0.9999170934865753
+gat_transformer_L4,4,True,1,3,0.9999052501957044
+gat_transformer_L8,8,True,3,4,0.9999289369016138

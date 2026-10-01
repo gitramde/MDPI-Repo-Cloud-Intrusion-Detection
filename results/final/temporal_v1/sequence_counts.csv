@@ -1,0 +1,451 @@
+partition,date,length,stride,attack_family,sequence_targets,day_rows,excluded_prefix_rows,source_file,target_rule
+train,2018-02-14,16,128,Benign,5210,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,Bot,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,Brute Force -Web,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,Brute Force -XSS,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,DDOS attack-HOIC,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,DDOS attack-LOIC-UDP,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,DDoS attacks-LOIC-HTTP,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,DoS attacks-GoldenEye,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,DoS attacks-Hulk,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,DoS attacks-SlowHTTPTest,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,DoS attacks-Slowloris,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,FTP-BruteForce,285,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,Infilteration,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,SQL Injection,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,16,128,SSH-Bruteforce,934,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,Benign,7767,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,Bot,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,Brute Force -Web,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,Brute Force -XSS,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,DDOS attack-HOIC,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,DDOS attack-LOIC-UDP,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,DDoS attacks-LOIC-HTTP,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,DoS attacks-GoldenEye,328,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,DoS attacks-Hulk,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,DoS attacks-SlowHTTPTest,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,DoS attacks-Slowloris,78,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,FTP-BruteForce,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,Infilteration,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,SQL Injection,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,16,128,SSH-Bruteforce,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,Benign,3500,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,Bot,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,Brute Force -Web,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,Brute Force -XSS,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,DDOS attack-HOIC,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,DDOS attack-LOIC-UDP,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,DDoS attacks-LOIC-HTTP,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,DoS attacks-GoldenEye,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,DoS attacks-Hulk,3387,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,DoS attacks-SlowHTTPTest,152,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,DoS attacks-Slowloris,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,FTP-BruteForce,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,Infilteration,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,SQL Injection,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,16,128,SSH-Bruteforce,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,Benign,57602,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,Bot,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,Brute Force -Web,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,Brute Force -XSS,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,DDOS attack-HOIC,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,DDOS attack-LOIC-UDP,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,DDoS attacks-LOIC-HTTP,4498,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,DoS attacks-GoldenEye,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,DoS attacks-Hulk,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,DoS attacks-SlowHTTPTest,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,DoS attacks-Slowloris,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,FTP-BruteForce,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,Infilteration,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,SQL Injection,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,16,128,SSH-Bruteforce,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,Benign,2847,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,Bot,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,Brute Force -Web,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,Brute Force -XSS,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,DDOS attack-HOIC,5196,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,DDOS attack-LOIC-UDP,12,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,DDoS attacks-LOIC-HTTP,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,DoS attacks-GoldenEye,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,DoS attacks-Hulk,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,DoS attacks-SlowHTTPTest,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,DoS attacks-Slowloris,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,FTP-BruteForce,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,Infilteration,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,SQL Injection,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,16,128,SSH-Bruteforce,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,Benign,8160,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,Bot,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,Brute Force -Web,4,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,Brute Force -XSS,1,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,DDOS attack-HOIC,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,DDOS attack-LOIC-UDP,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,DDoS attacks-LOIC-HTTP,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,DoS attacks-GoldenEye,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,DoS attacks-Hulk,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,DoS attacks-SlowHTTPTest,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,DoS attacks-Slowloris,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,FTP-BruteForce,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,Infilteration,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,SQL Injection,1,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,16,128,SSH-Bruteforce,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,Benign,5210,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,Bot,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,Brute Force -Web,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,Brute Force -XSS,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,DDOS attack-HOIC,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,DDOS attack-LOIC-UDP,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,DDoS attacks-LOIC-HTTP,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,DoS attacks-GoldenEye,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,DoS attacks-Hulk,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,DoS attacks-SlowHTTPTest,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,DoS attacks-Slowloris,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,FTP-BruteForce,285,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,Infilteration,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,SQL Injection,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,32,128,SSH-Bruteforce,934,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,Benign,7767,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,Bot,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,Brute Force -Web,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,Brute Force -XSS,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,DDOS attack-HOIC,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,DDOS attack-LOIC-UDP,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,DDoS attacks-LOIC-HTTP,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,DoS attacks-GoldenEye,328,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,DoS attacks-Hulk,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,DoS attacks-SlowHTTPTest,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,DoS attacks-Slowloris,78,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,FTP-BruteForce,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,Infilteration,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,SQL Injection,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,32,128,SSH-Bruteforce,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,Benign,3500,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,Bot,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,Brute Force -Web,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,Brute Force -XSS,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,DDOS attack-HOIC,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,DDOS attack-LOIC-UDP,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,DDoS attacks-LOIC-HTTP,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,DoS attacks-GoldenEye,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,DoS attacks-Hulk,3387,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,DoS attacks-SlowHTTPTest,152,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,DoS attacks-Slowloris,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,FTP-BruteForce,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,Infilteration,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,SQL Injection,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,32,128,SSH-Bruteforce,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,Benign,57602,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,Bot,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,Brute Force -Web,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,Brute Force -XSS,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,DDOS attack-HOIC,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,DDOS attack-LOIC-UDP,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,DDoS attacks-LOIC-HTTP,4498,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,DoS attacks-GoldenEye,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,DoS attacks-Hulk,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,DoS attacks-SlowHTTPTest,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,DoS attacks-Slowloris,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,FTP-BruteForce,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,Infilteration,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,SQL Injection,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,32,128,SSH-Bruteforce,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,Benign,2847,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,Bot,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,Brute Force -Web,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,Brute Force -XSS,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,DDOS attack-HOIC,5196,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,DDOS attack-LOIC-UDP,12,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,DDoS attacks-LOIC-HTTP,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,DoS attacks-GoldenEye,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,DoS attacks-Hulk,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,DoS attacks-SlowHTTPTest,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,DoS attacks-Slowloris,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,FTP-BruteForce,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,Infilteration,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,SQL Injection,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,32,128,SSH-Bruteforce,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,Benign,8160,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,Bot,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,Brute Force -Web,4,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,Brute Force -XSS,1,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,DDOS attack-HOIC,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,DDOS attack-LOIC-UDP,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,DDoS attacks-LOIC-HTTP,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,DoS attacks-GoldenEye,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,DoS attacks-Hulk,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,DoS attacks-SlowHTTPTest,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,DoS attacks-Slowloris,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,FTP-BruteForce,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,Infilteration,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,SQL Injection,1,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,32,128,SSH-Bruteforce,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,Benign,5210,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,Bot,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,Brute Force -Web,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,Brute Force -XSS,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,DDOS attack-HOIC,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,DDOS attack-LOIC-UDP,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,DDoS attacks-LOIC-HTTP,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,DoS attacks-GoldenEye,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,DoS attacks-Hulk,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,DoS attacks-SlowHTTPTest,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,DoS attacks-Slowloris,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,FTP-BruteForce,285,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,Infilteration,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,SQL Injection,0,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-14,64,128,SSH-Bruteforce,934,822942,63,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,Benign,7767,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,Bot,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,Brute Force -Web,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,Brute Force -XSS,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,DDOS attack-HOIC,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,DDOS attack-LOIC-UDP,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,DDoS attacks-LOIC-HTTP,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,DoS attacks-GoldenEye,328,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,DoS attacks-Hulk,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,DoS attacks-SlowHTTPTest,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,DoS attacks-Slowloris,78,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,FTP-BruteForce,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,Infilteration,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,SQL Injection,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-15,64,128,SSH-Bruteforce,0,1046154,63,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,Benign,3500,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,Bot,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,Brute Force -Web,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,Brute Force -XSS,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,DDOS attack-HOIC,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,DDOS attack-LOIC-UDP,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,DDoS attacks-LOIC-HTTP,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,DoS attacks-GoldenEye,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,DoS attacks-Hulk,3387,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,DoS attacks-SlowHTTPTest,152,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,DoS attacks-Slowloris,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,FTP-BruteForce,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,Infilteration,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,SQL Injection,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-16,64,128,SSH-Bruteforce,0,900988,63,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,Benign,57602,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,Bot,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,Brute Force -Web,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,Brute Force -XSS,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,DDOS attack-HOIC,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,DDOS attack-LOIC-UDP,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,DDoS attacks-LOIC-HTTP,4498,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,DoS attacks-GoldenEye,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,DoS attacks-Hulk,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,DoS attacks-SlowHTTPTest,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,DoS attacks-Slowloris,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,FTP-BruteForce,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,Infilteration,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,SQL Injection,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-20,64,128,SSH-Bruteforce,0,7948746,63,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,Benign,2847,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,Bot,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,Brute Force -Web,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,Brute Force -XSS,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,DDOS attack-HOIC,5196,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,DDOS attack-LOIC-UDP,12,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,DDoS attacks-LOIC-HTTP,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,DoS attacks-GoldenEye,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,DoS attacks-Hulk,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,DoS attacks-SlowHTTPTest,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,DoS attacks-Slowloris,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,FTP-BruteForce,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,Infilteration,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,SQL Injection,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-21,64,128,SSH-Bruteforce,0,1031018,63,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,Benign,8160,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,Bot,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,Brute Force -Web,4,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,Brute Force -XSS,1,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,DDOS attack-HOIC,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,DDOS attack-LOIC-UDP,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,DDoS attacks-LOIC-HTTP,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,DoS attacks-GoldenEye,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,DoS attacks-Hulk,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,DoS attacks-SlowHTTPTest,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,DoS attacks-Slowloris,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,FTP-BruteForce,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,Infilteration,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,SQL Injection,1,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+train,2018-02-22,64,128,SSH-Bruteforce,0,1045288,63,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,Benign,130675,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,Bot,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,Brute Force -Web,48,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,Brute Force -XSS,11,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,DDOS attack-HOIC,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,DDOS attack-LOIC-UDP,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,DDoS attacks-LOIC-HTTP,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,DoS attacks-GoldenEye,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,DoS attacks-Hulk,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,DoS attacks-SlowHTTPTest,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,DoS attacks-Slowloris,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,FTP-BruteForce,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,Infilteration,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,SQL Injection,4,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,16,8,SSH-Bruteforce,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,Benign,67314,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,Bot,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,Brute Force -Web,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,Brute Force -XSS,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,DDOS attack-HOIC,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,DDOS attack-LOIC-UDP,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,DDoS attacks-LOIC-HTTP,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,DoS attacks-GoldenEye,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,DoS attacks-Hulk,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,DoS attacks-SlowHTTPTest,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,DoS attacks-Slowloris,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,FTP-BruteForce,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,Infilteration,8551,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,SQL Injection,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,16,8,SSH-Bruteforce,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,Benign,130675,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,Bot,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,Brute Force -Web,48,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,Brute Force -XSS,11,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,DDOS attack-HOIC,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,DDOS attack-LOIC-UDP,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,DDoS attacks-LOIC-HTTP,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,DoS attacks-GoldenEye,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,DoS attacks-Hulk,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,DoS attacks-SlowHTTPTest,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,DoS attacks-Slowloris,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,FTP-BruteForce,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,Infilteration,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,SQL Injection,4,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,32,8,SSH-Bruteforce,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,Benign,67314,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,Bot,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,Brute Force -Web,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,Brute Force -XSS,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,DDOS attack-HOIC,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,DDOS attack-LOIC-UDP,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,DDoS attacks-LOIC-HTTP,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,DoS attacks-GoldenEye,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,DoS attacks-Hulk,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,DoS attacks-SlowHTTPTest,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,DoS attacks-Slowloris,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,FTP-BruteForce,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,Infilteration,8551,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,SQL Injection,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,32,8,SSH-Bruteforce,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,Benign,130675,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,Bot,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,Brute Force -Web,48,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,Brute Force -XSS,11,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,DDOS attack-HOIC,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,DDOS attack-LOIC-UDP,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,DDoS attacks-LOIC-HTTP,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,DoS attacks-GoldenEye,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,DoS attacks-Hulk,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,DoS attacks-SlowHTTPTest,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,DoS attacks-Slowloris,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,FTP-BruteForce,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,Infilteration,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,SQL Injection,4,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-23,64,8,SSH-Bruteforce,0,1045961,63,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,Benign,67314,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,Bot,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,Brute Force -Web,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,Brute Force -XSS,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,DDOS attack-HOIC,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,DDOS attack-LOIC-UDP,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,DDoS attacks-LOIC-HTTP,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,DoS attacks-GoldenEye,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,DoS attacks-Hulk,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,DoS attacks-SlowHTTPTest,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,DoS attacks-Slowloris,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,FTP-BruteForce,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,Infilteration,8551,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,SQL Injection,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+validation,2018-02-28,64,8,SSH-Bruteforce,0,606982,63,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,Benign,29739,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,Bot,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,Brute Force -Web,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,Brute Force -XSS,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,DDOS attack-HOIC,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,DDOS attack-LOIC-UDP,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,DDoS attacks-LOIC-HTTP,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,DoS attacks-GoldenEye,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,DoS attacks-Hulk,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,DoS attacks-SlowHTTPTest,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,DoS attacks-Slowloris,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,FTP-BruteForce,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,Infilteration,11632,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,SQL Injection,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,16,8,SSH-Bruteforce,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,Benign,95056,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,Bot,35326,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,Brute Force -Web,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,Brute Force -XSS,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,DDOS attack-HOIC,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,DDOS attack-LOIC-UDP,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,DDoS attacks-LOIC-HTTP,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,DoS attacks-GoldenEye,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,DoS attacks-Hulk,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,DoS attacks-SlowHTTPTest,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,DoS attacks-Slowloris,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,FTP-BruteForce,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,Infilteration,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,SQL Injection,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,16,8,SSH-Bruteforce,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,Benign,29739,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,Bot,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,Brute Force -Web,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,Brute Force -XSS,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,DDOS attack-HOIC,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,DDOS attack-LOIC-UDP,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,DDoS attacks-LOIC-HTTP,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,DoS attacks-GoldenEye,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,DoS attacks-Hulk,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,DoS attacks-SlowHTTPTest,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,DoS attacks-Slowloris,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,FTP-BruteForce,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,Infilteration,11632,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,SQL Injection,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,32,8,SSH-Bruteforce,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,Benign,95056,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,Bot,35326,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,Brute Force -Web,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,Brute Force -XSS,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,DDOS attack-HOIC,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,DDOS attack-LOIC-UDP,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,DDoS attacks-LOIC-HTTP,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,DoS attacks-GoldenEye,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,DoS attacks-Hulk,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,DoS attacks-SlowHTTPTest,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,DoS attacks-Slowloris,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,FTP-BruteForce,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,Infilteration,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,SQL Injection,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,32,8,SSH-Bruteforce,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,Benign,29739,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,Bot,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,Brute Force -Web,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,Brute Force -XSS,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,DDOS attack-HOIC,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,DDOS attack-LOIC-UDP,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,DDoS attacks-LOIC-HTTP,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,DoS attacks-GoldenEye,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,DoS attacks-Hulk,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,DoS attacks-SlowHTTPTest,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,DoS attacks-Slowloris,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,FTP-BruteForce,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,Infilteration,11632,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,SQL Injection,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-01,64,8,SSH-Bruteforce,0,331027,63,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,Benign,95056,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,Bot,35326,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,Brute Force -Web,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,Brute Force -XSS,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,DDOS attack-HOIC,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,DDOS attack-LOIC-UDP,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,DDoS attacks-LOIC-HTTP,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,DoS attacks-GoldenEye,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,DoS attacks-Hulk,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,DoS attacks-SlowHTTPTest,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,DoS attacks-Slowloris,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,FTP-BruteForce,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,Infilteration,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,SQL Injection,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only
+test,2018-03-02,64,8,SSH-Bruteforce,0,1043116,63,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,final flow only

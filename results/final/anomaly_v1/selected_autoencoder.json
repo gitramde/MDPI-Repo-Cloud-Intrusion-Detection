@@ -1,0 +1,14 @@
+{
+  "architecture": [
+    128,
+    32,
+    128
+  ],
+  "benign_validation_mse": 0.1144408326751154,
+  "model_sha256": "1886ff61e1814b51ffc0a47e71ed9bdc9c41b814f0cbeea74e7344b0ec871993",
+  "name": "autoencoder_B",
+  "protocol_sha256": "923a58291ca8ad9ebfedfacec03caf08b0fec98d811730c03a6073bfe3295b83",
+  "selected_epoch": 3,
+  "selection_uses_malicious_validation": false,
+  "selection_uses_test": false
+}

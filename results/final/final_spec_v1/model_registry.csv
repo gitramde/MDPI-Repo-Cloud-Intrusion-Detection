@@ -1,0 +1,15 @@
+model_id,family,cohort,final_status,seeds,dependency,configuration_json_pointer,training_in_phase10
+logistic_regression,supervised,full_dataset,five_seed_required,"42,123,456,789,1024",,/models/logistic_regression,False
+random_forest,supervised,full_dataset,five_seed_required,"42,123,456,789,1024",,/models/random_forest,False
+xgboost,supervised,full_dataset,five_seed_required,"42,123,456,789,1024",,/models/xgboost,False
+mlp,supervised,full_dataset,five_seed_required,"42,123,456,789,1024",,/models/mlp,False
+transformer_L1,temporal,phase5_matched,five_seed_required,"42,123,456,789,1024",,/models/transformer_L1,False
+transformer_L64,temporal,phase5_matched,five_seed_required,"42,123,456,789,1024",,/models/transformer_L64,False
+edge_mlp,graph_control,feb20_matched,five_seed_required,"42,123,456,789,1024",,/models/edge_mlp,False
+gatv2,graph,feb20_matched,five_seed_required,"42,123,456,789,1024",,/models/gatv2,False
+gatv2_self_only,graph_ablation,feb20_matched,five_seed_planned_resource_conditional,"42,123,456,789,1024",,/models/gatv2_self_only,False
+gat_transformer_L1,graph_temporal,feb20_matched,five_seed_required,"42,123,456,789,1024",gatv2[s],/models/gat_transformer_L1,False
+gat_transformer_L8,graph_temporal,feb20_matched,five_seed_required,"42,123,456,789,1024",gatv2[s],/models/gat_transformer_L8,False
+autoencoder_B,anomaly,full_dataset,five_seed_required,"42,123,456,789,1024",,/models/autoencoder_B,False
+isolation_forest,anomaly_secondary,full_dataset,development_seed42_secondary_only,42,existing Phase7,/models/isolation_forest,False
+rf_or_ae,derived_fusion,full_dataset,derived_no_training,"42,123,456,789,1024",random_forest[s];autoencoder_B[s],/models/rf_or_ae,False

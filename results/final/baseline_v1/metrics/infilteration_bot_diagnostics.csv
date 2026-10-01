@@ -1,0 +1,17 @@
+model,seed,partition,attack_family,binary_detection_recall,detected_as_malicious,missed,present_in_partition,total_records,training_status
+logistic_regression,42,validation,Bot,,0,0,False,0,UNSEEN
+logistic_regression,42,validation,Infilteration,0.07258521283239176,4998,63859,True,68857,UNSEEN
+logistic_regression,42,test,Bot,0.0,0,282310,True,282310,UNSEEN
+logistic_regression,42,test,Infilteration,0.03269561478933792,3042,89998,True,93040,UNSEEN
+random_forest,42,validation,Bot,,0,0,False,0,UNSEEN
+random_forest,42,validation,Infilteration,0.001989630683881087,137,68720,True,68857,UNSEEN
+random_forest,42,test,Bot,0.0,0,282310,True,282310,UNSEEN
+random_forest,42,test,Infilteration,0.0025257953568357696,235,92805,True,93040,UNSEEN
+xgboost,42,validation,Bot,,0,0,False,0,UNSEEN
+xgboost,42,validation,Infilteration,0.010441930377448916,719,68138,True,68857,UNSEEN
+xgboost,42,test,Bot,0.0,0,282310,True,282310,UNSEEN
+xgboost,42,test,Infilteration,0.012908426483233018,1201,91839,True,93040,UNSEEN
+mlp,42,validation,Bot,,0,0,False,0,UNSEEN
+mlp,42,validation,Infilteration,0.003485484409718692,240,68617,True,68857,UNSEEN
+mlp,42,test,Bot,0.0,0,282310,True,282310,UNSEEN
+mlp,42,test,Infilteration,0.005417024935511608,504,92536,True,93040,UNSEEN

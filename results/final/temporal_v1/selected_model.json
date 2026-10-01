@@ -1,0 +1,27 @@
+{
+  "candidate_names": [
+    "transformer_L16_d64_n2_p01",
+    "transformer_L32_d64_n2_p01",
+    "transformer_L64_d64_n2_p01",
+    "transformer_L64_d128_n3_p02"
+  ],
+  "config": {
+    "context_length": 64,
+    "control": false,
+    "d_model": 64,
+    "dropout": 0.1,
+    "heads": 4,
+    "layers": 2,
+    "length": 64,
+    "name": "transformer_L64_d64_n2_p01",
+    "position_offset": 0,
+    "seed": 42
+  },
+  "model_sha256": "6175b41a63ed949fa6a045b01663abc129dcad793e611912d5668a8a31513a65",
+  "protocol_sha256": "560cbdc4e963d41f0803bc7e7e3011a529ceaf23b30d605b630409a359b7914c",
+  "seed": 42,
+  "selected_epoch": 1,
+  "selection_metric": "validation_macro_f1_at_0.5",
+  "selection_partition": "validation",
+  "selection_score": 0.5445729666663383
+}

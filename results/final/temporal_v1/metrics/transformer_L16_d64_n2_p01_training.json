@@ -1,0 +1,39 @@
+{
+  "config": {
+    "context_length": 16,
+    "control": false,
+    "d_model": 64,
+    "dropout": 0.1,
+    "heads": 4,
+    "layers": 2,
+    "length": 16,
+    "name": "transformer_L16_d64_n2_p01",
+    "position_offset": 0,
+    "seed": 42
+  },
+  "environment": {
+    "device": "cpu",
+    "numpy": "2.1.3",
+    "python": "3.13.5",
+    "threads": 2,
+    "torch": "2.6.0+cpu"
+  },
+  "executed_epochs": 3,
+  "model_sha256": "6038c7638d3d6a18fa2f00a0e59598bc24270c4775fab05dac9971c52355b5f7",
+  "model_size_bytes": 317138,
+  "parameters": 72321,
+  "peak_memory_bytes": 1838120960,
+  "positive_class_weight": 5.7196827104060235,
+  "protocol_sha256": "560cbdc4e963d41f0803bc7e7e3011a529ceaf23b30d605b630409a359b7914c",
+  "seed": 42,
+  "selected_epoch": 2,
+  "selected_validation_macro_f1": 0.5437073944447799,
+  "selection_seconds": 39.58052390000012,
+  "status": "complete",
+  "training_seconds": 81.78456749999896,
+  "training_stage_seconds": 139.57267550000142,
+  "training_target_negative": 85086,
+  "training_target_positive": 14876,
+  "training_targets": 99962,
+  "validation_prediction_sha256": "d30cabf777fc1b50c376ce34b1b93b11b06bcf0ade56054435d322a0b57b1fec"
+}

@@ -1,0 +1,326 @@
+{
+  "evaluation_peak_memory_bytes": 443060224,
+  "model": "xgboost",
+  "model_sha256": "b8603b8faa3b888077a9a315df07383c8e613f0724ce6ac637f200b54fa6cb87",
+  "partitions": {
+    "test": {
+      "families": [
+        {
+          "attack_family": "Bot",
+          "binary_detection_recall": 0.0,
+          "detected_as_malicious": 0,
+          "missed": 282310,
+          "present_in_partition": true,
+          "total_records": 282310,
+          "training_status": "UNSEEN"
+        },
+        {
+          "attack_family": "Brute Force -Web",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "Brute Force -XSS",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DDOS attack-HOIC",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DDOS attack-LOIC-UDP",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DDoS attacks-LOIC-HTTP",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DoS attacks-GoldenEye",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DoS attacks-Hulk",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DoS attacks-SlowHTTPTest",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DoS attacks-Slowloris",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "FTP-BruteForce",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "Infilteration",
+          "binary_detection_recall": 0.012908426483233018,
+          "detected_as_malicious": 1201,
+          "missed": 91839,
+          "present_in_partition": true,
+          "total_records": 93040,
+          "training_status": "UNSEEN"
+        },
+        {
+          "attack_family": "SQL Injection",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "SSH-Bruteforce",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.7248743398612808,
+        "average_precision": 0.5315889952752099,
+        "benign_recall_specificity": 0.9960822713014609,
+        "f1": 0.006313343706631902,
+        "false_negative_rate": 0.9968003197016119,
+        "false_negatives": 374149,
+        "false_positive_rate": 0.003917728698539137,
+        "false_positives": 3913,
+        "macro_f1": 0.42332339046645495,
+        "malicious_recall": 0.003199680298388171,
+        "pr_auc": 0.3976131201137827,
+        "pr_auc_definition": "trapezoidal precision-recall area; average_precision reported separately",
+        "precision": 0.2348455220962065,
+        "recall": 0.003199680298388171,
+        "records": 1374143,
+        "roc_auc": 0.5538784079454635,
+        "threshold": 0.5,
+        "true_negatives": 994880,
+        "true_positives": 1201
+      },
+      "probability_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\metrics\\predictions\\xgboost_seed42_test.npy",
+      "probability_sha256": "cb00f3ceea8d78f5f293313e09ff4b9844e9ab9f0704c4f20cb7feab3e73a402",
+      "runtime": {
+        "inference_latency_ms_per_1000": 6.338458661144178,
+        "inference_seconds": 8.709948600000644,
+        "predict_only_latency_ms_per_1000": 1.1498966992501816,
+        "predict_only_seconds": 1.5801224999977421
+      }
+    },
+    "validation": {
+      "families": [
+        {
+          "attack_family": "Bot",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "UNSEEN"
+        },
+        {
+          "attack_family": "Brute Force -Web",
+          "binary_detection_recall": 0.19060773480662985,
+          "detected_as_malicious": 69,
+          "missed": 293,
+          "present_in_partition": true,
+          "total_records": 362,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "Brute Force -XSS",
+          "binary_detection_recall": 0.6688741721854304,
+          "detected_as_malicious": 101,
+          "missed": 50,
+          "present_in_partition": true,
+          "total_records": 151,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DDOS attack-HOIC",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DDOS attack-LOIC-UDP",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DDoS attacks-LOIC-HTTP",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DoS attacks-GoldenEye",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DoS attacks-Hulk",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DoS attacks-SlowHTTPTest",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "DoS attacks-Slowloris",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "FTP-BruteForce",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "Infilteration",
+          "binary_detection_recall": 0.010441930377448916,
+          "detected_as_malicious": 719,
+          "missed": 68138,
+          "present_in_partition": true,
+          "total_records": 68857,
+          "training_status": "UNSEEN"
+        },
+        {
+          "attack_family": "SQL Injection",
+          "binary_detection_recall": 0.03773584905660377,
+          "detected_as_malicious": 2,
+          "missed": 51,
+          "present_in_partition": true,
+          "total_records": 53,
+          "training_status": "KNOWN"
+        },
+        {
+          "attack_family": "SSH-Bruteforce",
+          "binary_detection_recall": null,
+          "detected_as_malicious": 0,
+          "missed": 0,
+          "present_in_partition": false,
+          "total_records": 0,
+          "training_status": "KNOWN"
+        }
+      ],
+      "metrics": {
+        "accuracy": 0.9542258867970644,
+        "average_precision": 0.049849401701388,
+        "benign_recall_specificity": 0.9954973729412954,
+        "f1": 0.023010175094261662,
+        "false_negative_rate": 0.987165636748628,
+        "false_negatives": 68532,
+        "false_positive_rate": 0.004502627058704658,
+        "false_positives": 7130,
+        "macro_f1": 0.49978705141700985,
+        "malicious_recall": 0.012834363251372024,
+        "pr_auc": 0.04836794388792212,
+        "pr_auc_definition": "trapezoidal precision-recall area; average_precision reported separately",
+        "precision": 0.11108340605909488,
+        "recall": 0.012834363251372024,
+        "records": 1652943,
+        "roc_auc": 0.5478494789063553,
+        "threshold": 0.5,
+        "true_negatives": 1576390,
+        "true_positives": 891
+      },
+      "probability_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1\\metrics\\predictions\\xgboost_seed42_validation.npy",
+      "probability_sha256": "d78161fce74696ded76ff1c8c688eabfa9c0cf55e766426e0e2201bdb635e689",
+      "runtime": {
+        "inference_latency_ms_per_1000": 5.926557721590391,
+        "inference_seconds": 9.796262099998785,
+        "predict_only_latency_ms_per_1000": 1.076199844762924,
+        "predict_only_seconds": 1.7788970000019617
+      }
+    }
+  },
+  "seed": 42
+}

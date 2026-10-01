@@ -1,0 +1,4 @@
+partition,rows,features,numeric_cells_imputed,unknown_category_counts_json,transformed_values_all_finite,preprocessing_sha256,transformed_float64_sha256
+train,12795136,80,153798,"{""Protocol"": 0}",True,7a7e15a52108b0ef165481baaf9833c88c42e8c246a612f6846db2b0f2ae565a,8c459aade75ef45925b2b8c04ec79c7e6b907522e3a45d42ae9baec3d6e40523
+validation,1652943,80,20976,"{""Protocol"": 0}",True,7a7e15a52108b0ef165481baaf9833c88c42e8c246a612f6846db2b0f2ae565a,5e9bcb3f843483123a9cf1f814ccc3f61cc909295d80aa03760bda9e28a9b642
+test,1374143,80,13922,"{""Protocol"": 0}",True,7a7e15a52108b0ef165481baaf9833c88c42e8c246a612f6846db2b0f2ae565a,74496105218ad1002353ec115abbd020d3482ebb4dd24ae8dd2d7882326e4553

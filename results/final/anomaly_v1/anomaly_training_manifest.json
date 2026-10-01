@@ -1,0 +1,64 @@
+{
+  "artifacts": [
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\anomaly_v1\\benign_train_ids.npy",
+      "sha256": "57c051e352942b48a6edeb0ad0c8ea36cfa60e6d11a5ca9d2fd48001ace478a4"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\anomaly_v1\\isolation_train_ids.npy",
+      "sha256": "6d7613befc31bdf01566515e16ee594cfa6e69833feae83020746b991856d906"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\anomaly_v1\\benign_validation_features.npy",
+      "sha256": "e14932d20d653d82ef57186c41351c2f3a4761e101078df4536e05a30b266cf3"
+    },
+    {
+      "path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\anomaly_v1\\configs\\protocol.json",
+      "sha256": "923a58291ca8ad9ebfedfacec03caf08b0fec98d811730c03a6073bfe3295b83"
+    }
+  ],
+  "autoencoder_subsampled": false,
+  "autoencoder_training_rows": 10885643,
+  "benign_ids_sha256": "57c051e352942b48a6edeb0ad0c8ea36cfa60e6d11a5ca9d2fd48001ace478a4",
+  "benign_train_rows": 10885643,
+  "benign_validation_rows": 1583520,
+  "isolation_forest_fit_rows": 250000,
+  "isolation_forest_tree_subsample": 256,
+  "isolation_sample_sha256": "6d7613befc31bdf01566515e16ee594cfa6e69833feae83020746b991856d906",
+  "label_use": "binary labels only identify benign fitting/calibration cohorts; no labels in reconstruction objective or Isolation Forest fit",
+  "partitions": {
+    "test": {
+      "dates": [
+        "2018-03-01",
+        "2018-03-02"
+      ],
+      "membership_sha256": "c51988409cf084b0656f7985a2a51c44aac5944f357c01356e5c21b5999eb95b",
+      "rows": 1374143
+    },
+    "train": {
+      "dates": [
+        "2018-02-14",
+        "2018-02-15",
+        "2018-02-16",
+        "2018-02-20",
+        "2018-02-21",
+        "2018-02-22"
+      ],
+      "membership_sha256": "3478533e80f58c092372361051d9f7b83199f284a5d57af2549f6d74051e9ecd",
+      "rows": 12795136
+    },
+    "validation": {
+      "dates": [
+        "2018-02-23",
+        "2018-02-28"
+      ],
+      "membership_sha256": "2bdd932fb3155c492619faf9a01af18e6862b13e8b72225f61cc6ead36084f28",
+      "rows": 1652943
+    }
+  },
+  "preprocessing_sha256": "7a7e15a52108b0ef165481baaf9833c88c42e8c246a612f6846db2b0f2ae565a",
+  "seed": 42,
+  "status": "PASS",
+  "train_rows": 12795136,
+  "training_cache_sha256": "37a9e9899647b0e61c2f4db4846f1b03a80fe67d8931af078ffcc5a556599d38"
+}

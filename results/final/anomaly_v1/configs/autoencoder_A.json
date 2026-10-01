@@ -1,0 +1,13 @@
+{
+  "gradient_clip_norm": 10.0,
+  "hidden_layers": [
+    128,
+    64,
+    32,
+    64,
+    128
+  ],
+  "isolation_forest": null,
+  "name": "autoencoder_A",
+  "seed": 42
+}

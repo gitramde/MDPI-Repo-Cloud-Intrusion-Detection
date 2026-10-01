@@ -1,0 +1,20 @@
+{
+  "scope": "exact deterministic history-index replay; excludes metadata loading; includes diagnostic coverage counting; no model inference",
+  "timings": [
+    {
+      "history_index_seconds": 136.24457380000013,
+      "partition": "train",
+      "targets": 172984
+    },
+    {
+      "history_index_seconds": 4.403919500000029,
+      "partition": "validation",
+      "targets": 88782
+    },
+    {
+      "history_index_seconds": 36.273474299999634,
+      "partition": "test",
+      "targets": 212591
+    }
+  ]
+}

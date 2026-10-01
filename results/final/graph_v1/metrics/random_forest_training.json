@@ -1,0 +1,40 @@
+{
+  "config": {
+    "early_stopping_rounds": null,
+    "kind": "conventional",
+    "maximum_boost_rounds": null,
+    "maximum_passes": null,
+    "name": "random_forest",
+    "parameters": {
+      "class_weight": "balanced_subsample",
+      "max_depth": 16,
+      "max_features": "sqrt",
+      "min_samples_leaf": 2,
+      "n_estimators": 100,
+      "n_jobs": 2,
+      "random_state": 42
+    },
+    "seed": 42,
+    "weighting": "training-target class balance; XGBoost negative/positive scale_pos_weight"
+  },
+  "model_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\graph_v1\\models\\random_forest.joblib",
+  "model_sha256": "1aa211901cb23d4cbaa5b83ba9ed985eac8fe8c5b1c8ea5d0741efe20891e81a",
+  "model_size_bytes": 1196185,
+  "peak_memory_bytes": 1067417600,
+  "preprocessing_sha256": "ba9b94d60b81cfd664ee1a70f938fbfe17f5d137b347b8cda0a59bfbbf7082ae",
+  "protocol_sha256": "bd235df12201feb9ce43f87fde433dc764029f6cbaa8bf88756e496e2162b63e",
+  "selected_epoch": 1,
+  "selected_validation_macro_f1": 0.9990284573246426,
+  "software": {
+    "python": "3.13.5",
+    "sklearn": "1.7.2",
+    "xgboost": "3.0.5"
+  },
+  "stage_seconds": 22.7097806999991,
+  "status": "complete",
+  "training_seconds": 22.262122799998906,
+  "training_targets": 172984,
+  "training_time_note": "XGBoost training includes internal validation early-stopping evaluation",
+  "validation_prediction_sha256": "8a83c7282a2c754d033c6f27ff014ac433f80c05b9bc92e7c0893a73319e450c",
+  "validation_selection_seconds": 0.4476579000001948
+}

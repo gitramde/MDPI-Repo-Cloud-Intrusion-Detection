@@ -1,0 +1,74 @@
+{
+  "additional_baselines": {
+    "logistic_regression": "SGD log_loss; four passes",
+    "random_forest": "100 trees max_depth 16 balanced_subsample",
+    "xgboost": "150 rounds max_depth 5; validation early stopping 20"
+  },
+  "batch_graphs": 1,
+  "candidates": [
+    {
+      "dropout": 0.1,
+      "heads": 4,
+      "hidden": 64,
+      "layers": 2
+    },
+    {
+      "dropout": 0.2,
+      "heads": 4,
+      "hidden": 128,
+      "layers": 2
+    }
+  ],
+  "cutoff_second": 30,
+  "detection_time": "flow completion; target features may summarize the full current flow. No claim of start-time detection.",
+  "endpoint_id_policy": "indices only, never learned identity embeddings or numerical IP features",
+  "evaluation_stride": 4,
+  "gradient_clip_norm": 1.0,
+  "historical_edge_feature_names": [
+    "Flow Duration",
+    "Tot Fwd Pkts",
+    "Tot Bwd Pkts",
+    "TotLen Fwd Pkts",
+    "TotLen Bwd Pkts",
+    "Dst Port",
+    "Protocol=0",
+    "Protocol=6",
+    "Protocol=17"
+  ],
+  "history_cap_policy": "most recently completed eligible flows; source_row breaks completion ties",
+  "history_edge_cap": 8192,
+  "history_state": "reset at partition/window boundaries; validation/test history may use earlier unlabeled completed flows from that same partition",
+  "learning_rate": 0.0005,
+  "max_epochs": 4,
+  "message_passing": "directed historical Source IP -> Destination IP, two layers, explicit self loops with zero edge attributes",
+  "min_improvement": 1e-05,
+  "node_features": [
+    "log1p_in_count",
+    "log1p_out_count",
+    "log1p_in_bytes",
+    "log1p_out_bytes",
+    "log1p_tcp_incident",
+    "log1p_udp_incident",
+    "log1p_low_source_port",
+    "log1p_low_destination_port"
+  ],
+  "node_history": "all completed flows within the assigned calendar window before cutoff; no labels",
+  "patience": 2,
+  "primary_window_minutes": 1,
+  "seed": 42,
+  "selection_metric": "validation_macro_f1_at_0.5",
+  "sensitivity_selection": "primary validation-selected architecture held fixed; each window selects epoch and thresholds on validation only",
+  "sensitivity_windows": [
+    5,
+    10
+  ],
+  "snapshot_rule": "one causal prefix per occupied target minute at second 30; reset calendar window and partition",
+  "target_rule": "current completed flow binary label; current features available at classification time",
+  "target_seconds": [
+    30,
+    60
+  ],
+  "threads": 2,
+  "train_stride": 16,
+  "weight_decay": 0.01
+}

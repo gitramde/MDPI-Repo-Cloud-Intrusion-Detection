@@ -1,0 +1,49 @@
+{
+  "all_missing_numeric_fill": 0.0,
+  "batch_size": 50000,
+  "benign_label": "Benign",
+  "categorical_columns": [
+    "Protocol"
+  ],
+  "data_dir": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1",
+  "expected_raw_files": 10,
+  "expected_totals": {
+    "exact_nonheader_duplicates": 410707,
+    "raw_rows": 16233002,
+    "repeated_headers": 59,
+    "temporal_rows": 15822222,
+    "year_1970_temporal_exclusions": 14
+  },
+  "imputation": "training_mean",
+  "infinity_to_nan": [
+    "Flow Byts/s",
+    "Flow Pkts/s"
+  ],
+  "metadata_only_columns": [
+    "Label",
+    "Timestamp",
+    "Flow ID",
+    "Src IP",
+    "Dst IP",
+    "Src Port"
+  ],
+  "raw_dir": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms",
+  "report_dir": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\baseline_v1",
+  "scaling": "training_standard_scaler",
+  "schema_version": 1,
+  "seed": 20260920,
+  "split": {
+    "minimum_benign_per_partition": 100,
+    "minimum_malicious_per_partition": 100,
+    "minimum_test_dates": 2,
+    "minimum_train_dates": 3,
+    "minimum_validation_dates": 1,
+    "target_fractions": [
+      0.8,
+      0.1,
+      0.1
+    ]
+  },
+  "target": "binary",
+  "unknown_category": "all_zero_one_hot"
+}

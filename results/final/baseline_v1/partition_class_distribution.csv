@@ -1,0 +1,46 @@
+partition,attack_class,status,records,present,seen_in_training,fraction
+train,Benign,benign,10885643,True,True,0.8507641497519057
+train,Bot,malicious,0,False,False,0.0
+train,Brute Force -Web,malicious,249,True,True,1.9460519997599088e-05
+train,Brute Force -XSS,malicious,79,True,True,6.174221204057542e-06
+train,DDOS attack-HOIC,malicious,668461,True,True,0.05224336810487985
+train,DDOS attack-LOIC-UDP,malicious,1730,True,True,0.00013520762889898162
+train,DDoS attacks-LOIC-HTTP,malicious,576191,True,True,0.045032034047938214
+train,DoS attacks-GoldenEye,malicious,41455,True,True,0.003239903038154499
+train,DoS attacks-Hulk,malicious,434873,True,True,0.033987368324963484
+train,DoS attacks-SlowHTTPTest,malicious,19462,True,True,0.0015210467477641504
+train,DoS attacks-Slowloris,malicious,10285,True,True,0.0008038210770092635
+train,FTP-BruteForce,malicious,39352,True,True,0.0030755437066085113
+train,Infilteration,malicious,0,False,False,0.0
+train,SQL Injection,malicious,34,True,True,2.657259758708309e-06
+train,SSH-Bruteforce,malicious,117322,True,True,0.009169265570916948
+validation,Benign,benign,1583520,True,True,0.9580003666188126
+validation,Bot,malicious,0,False,False,0.0
+validation,Brute Force -Web,malicious,362,True,True,0.00021900331711377827
+validation,Brute Force -XSS,malicious,151,True,True,9.135221238723901e-05
+validation,DDOS attack-HOIC,malicious,0,False,True,0.0
+validation,DDOS attack-LOIC-UDP,malicious,0,False,True,0.0
+validation,DDoS attacks-LOIC-HTTP,malicious,0,False,True,0.0
+validation,DoS attacks-GoldenEye,malicious,0,False,True,0.0
+validation,DoS attacks-Hulk,malicious,0,False,True,0.0
+validation,DoS attacks-SlowHTTPTest,malicious,0,False,True,0.0
+validation,DoS attacks-Slowloris,malicious,0,False,True,0.0
+validation,FTP-BruteForce,malicious,0,False,True,0.0
+validation,Infilteration,malicious,68857,True,False,0.04165721383011997
+validation,SQL Injection,malicious,53,True,True,3.20640215663819e-05
+validation,SSH-Bruteforce,malicious,0,False,True,0.0
+test,Benign,benign,998793,True,True,0.726847933584787
+test,Bot,malicious,282310,True,False,0.20544441153504403
+test,Brute Force -Web,malicious,0,False,True,0.0
+test,Brute Force -XSS,malicious,0,False,True,0.0
+test,DDOS attack-HOIC,malicious,0,False,True,0.0
+test,DDOS attack-LOIC-UDP,malicious,0,False,True,0.0
+test,DDoS attacks-LOIC-HTTP,malicious,0,False,True,0.0
+test,DoS attacks-GoldenEye,malicious,0,False,True,0.0
+test,DoS attacks-Hulk,malicious,0,False,True,0.0
+test,DoS attacks-SlowHTTPTest,malicious,0,False,True,0.0
+test,DoS attacks-Slowloris,malicious,0,False,True,0.0
+test,FTP-BruteForce,malicious,0,False,True,0.0
+test,Infilteration,malicious,93040,True,False,0.06770765488016894
+test,SQL Injection,malicious,0,False,True,0.0
+test,SSH-Bruteforce,malicious,0,False,True,0.0

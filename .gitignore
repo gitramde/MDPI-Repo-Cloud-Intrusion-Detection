@@ -1,0 +1,51 @@
+# Keep the original multi-gigabyte dataset local.
+/data/
+
+# Python environments and generated caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local credentials and machine-specific settings.
+.env
+.env.*
+!.env.example
+.codex/
+.idea/
+.vscode/
+
+# Temporary files and operating-system metadata.
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.ruff_cache/
+.mypy_cache/
+*.swp
+*.swo
+*~
+
+# Separate local reference repository; never publish or modify through this project.
+/aigt-ctd/
+
+# Expose retained documentary evidence and original figures only.
+/results/*
+!/results/final/
+/results/final/**
+!/results/final/**/
+!/results/final/**/*.md
+!/results/final/**/*.csv
+!/results/final/**/*.json
+!/results/figures/
+/results/figures/*
+!/results/figures/*.md
+!/results/figures/*.csv
+!/results/figures/*.json
+!/results/figures/*.pdf
+!/results/figures/*.png
+!/results/figures/*.svg

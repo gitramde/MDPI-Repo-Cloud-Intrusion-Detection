@@ -1,0 +1,9 @@
+model,protocol,criterion,threshold,benign_validation_N,allowed_false_positives,observed_false_positives,observed_validation_fpr,target_fpr
+autoencoder_B,A_benign_only,benign_fpr_at_most_0.05,0.03691029245411019,1583520,79176,79173,0.04999810548651106,0.05
+autoencoder_B,A_benign_only,benign_fpr_at_most_0.01,0.2989627885301674,1583520,15835,15828,0.009995453167626553,0.01
+autoencoder_B,A_benign_only,benign_fpr_at_most_0.005,0.3771854580469557,1583520,7917,7917,0.004999621097302212,0.005
+autoencoder_B,A_benign_only,benign_fpr_at_most_0.001,1.1200285579471538,1583520,1583,1583,0.0009996716176619179,0.001
+isolation_forest,A_benign_only,benign_fpr_at_most_0.05,0.5644528945765446,1583520,79176,78776,0.049747398201475196,0.05
+isolation_forest,A_benign_only,benign_fpr_at_most_0.01,0.6335396103319109,1583520,15835,15834,0.009999242194604425,0.01
+isolation_forest,A_benign_only,benign_fpr_at_most_0.005,0.6562365486127368,1583520,7917,7916,0.0049989895928059,0.005
+isolation_forest,A_benign_only,benign_fpr_at_most_0.001,0.6954621292658397,1583520,1583,1582,0.0009990401131656057,0.001

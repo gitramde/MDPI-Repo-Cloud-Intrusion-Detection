@@ -1,0 +1,3 @@
+partition,next_partition_start,flows_completing_at_or_after_boundary,target_flows_completing_at_or_after_boundary,latest_completion
+train,2018-02-20 10:30:00,6097,253,2018-02-20 10:31:58.325414
+validation,2018-02-20 11:00:00,5397,832,2018-02-20 11:01:57.559507

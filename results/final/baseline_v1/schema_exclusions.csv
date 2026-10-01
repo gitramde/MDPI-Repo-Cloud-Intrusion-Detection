@@ -1,0 +1,13 @@
+column,stage,decision,reason
+Dst IP,schema_before_split,exclude,metadata_or_identifier
+Flow ID,schema_before_split,exclude,metadata_or_identifier
+Label,schema_before_split,exclude,direct_target_or_target_named_field
+Src IP,schema_before_split,exclude,metadata_or_identifier
+Src Port,schema_before_split,exclude,metadata_or_identifier
+Timestamp,schema_before_split,exclude,metadata_or_identifier
+source_file,generated_metadata,exclude,generated_provenance
+source_row,generated_metadata,exclude,generated_provenance
+timestamp,generated_metadata,exclude,generated_provenance
+file_date,generated_metadata,exclude,generated_provenance
+attack_label,generated_metadata,exclude,derived_target
+target_binary,generated_metadata,exclude,derived_target

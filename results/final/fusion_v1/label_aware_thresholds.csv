@@ -1,0 +1,7 @@
+method,protocol,criterion,threshold
+random_forest,B_label_aware,maximum_macro_f1,0.10696382758638676
+autoencoder,B_label_aware,maximum_macro_f1,0.14403971626160014
+max,B_label_aware,maximum_macro_f1,0.9791805597655855
+weighted_0.25,B_label_aware,maximum_macro_f1,0.7542461706280282
+weighted_0.50,B_label_aware,maximum_macro_f1,0.507157630870346
+weighted_0.75,B_label_aware,maximum_macro_f1,0.27165522075139875

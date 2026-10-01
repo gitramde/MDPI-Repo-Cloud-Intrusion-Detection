@@ -1,0 +1,13 @@
+{
+  "original_passed": false,
+  "original_rule": "TRAIN only, label-free: >=50% targets have >=3 and >=7 populated slots among previous 3 and 7 minutes respectively; otherwise stop",
+  "reason": "A majority-full-context rule needlessly rejects substantial temporal support despite the explicitly required missing-history masking. Retain all targets and report masking coverage. This gate revision is diagnostic-stage development, not preregistration.",
+  "revised_rule": "Diagnostic-stage revised TRAIN-only gate: >=10000 fully populated L4 and L8 contexts; missing contexts masked for all remaining targets; no test metrics used",
+  "selection_uses_test_metrics": false,
+  "stage": "before any model fitting",
+  "training_full_context_counts": {
+    "L4": 86935,
+    "L8": 74150
+  },
+  "training_started": false
+}

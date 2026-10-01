@@ -1,0 +1,18 @@
+{
+  "early_stopping_rounds": 20,
+  "kind": "conventional",
+  "maximum_boost_rounds": 150,
+  "maximum_passes": null,
+  "name": "xgboost",
+  "parameters": {
+    "eta": 0.05,
+    "eval_metric": "logloss",
+    "max_depth": 5,
+    "nthread": 2,
+    "objective": "binary:logistic",
+    "seed": 42,
+    "tree_method": "hist"
+  },
+  "seed": 42,
+  "weighting": "training-target class balance; XGBoost negative/positive scale_pos_weight"
+}

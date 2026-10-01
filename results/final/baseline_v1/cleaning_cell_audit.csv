@@ -1,0 +1,813 @@
+filename,column,operation,cells
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,missing_after_cleaning,3821
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,negative_infinity_to_nan,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,positive_infinity_to_nan,1544
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,missing_after_cleaning,3821
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,negative_infinity_to_nan,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,positive_infinity_to_nan,3821
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,missing_after_cleaning,0
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,missing_after_cleaning,8022
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,negative_infinity_to_nan,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,positive_infinity_to_nan,3101
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,missing_after_cleaning,8022
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,negative_infinity_to_nan,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,positive_infinity_to_nan,8022
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,missing_after_cleaning,0
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,missing_after_cleaning,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,missing_after_cleaning,59452
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,negative_infinity_to_nan,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,positive_infinity_to_nan,22686
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,missing_after_cleaning,59452
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,negative_infinity_to_nan,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,positive_infinity_to_nan,59452
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,missing_after_cleaning,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,missing_after_cleaning,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,missing_after_cleaning,5604
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,negative_infinity_to_nan,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,positive_infinity_to_nan,2040
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,missing_after_cleaning,5604
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,negative_infinity_to_nan,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,positive_infinity_to_nan,5604
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,missing_after_cleaning,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,missing_after_cleaning,5702
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,negative_infinity_to_nan,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,positive_infinity_to_nan,1948
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,missing_after_cleaning,5702
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,negative_infinity_to_nan,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,positive_infinity_to_nan,5702
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,missing_after_cleaning,0
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,missing_after_cleaning,4786
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,negative_infinity_to_nan,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,positive_infinity_to_nan,2117
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,missing_after_cleaning,4786
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,negative_infinity_to_nan,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,positive_infinity_to_nan,4786
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,missing_after_cleaning,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Active Max,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Active Mean,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Active Min,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Active Std,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Dst Port,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,missing_after_cleaning,2917
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,negative_infinity_to_nan,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,positive_infinity_to_nan,1083
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,missing_after_cleaning,2917
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,negative_infinity_to_nan,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,positive_infinity_to_nan,2917
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Idle Max,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Idle Min,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Idle Std,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Protocol,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,missing_after_cleaning,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Active Max,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Active Mean,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Active Min,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Active Std,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Dst Port,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,missing_after_cleaning,4044
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,negative_infinity_to_nan,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,positive_infinity_to_nan,1486
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,missing_after_cleaning,4044
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,negative_infinity_to_nan,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,positive_infinity_to_nan,4044
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Idle Max,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Idle Min,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Idle Std,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Protocol,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,missing_after_cleaning,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,missing_after_cleaning,0

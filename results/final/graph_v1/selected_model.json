@@ -1,0 +1,33 @@
+{
+  "candidates": [
+    "gatv2_w1_h64_p1",
+    "gatv2_w1_h128_p2"
+  ],
+  "cohort_sha256": "9bc27a5c2700c6b17a08fccdae270cb9d6c547b2ded4b530274fe4cb37936312",
+  "config": {
+    "dropout": 0.2,
+    "heads": 4,
+    "hidden": 128,
+    "kind": "gatv2",
+    "layers": 2,
+    "name": "gatv2_w1_h128_p2",
+    "seed": 42,
+    "window_minutes": 1
+  },
+  "evaluation_models": [
+    "gatv2_w1_h128_p2",
+    "edge_mlp",
+    "gatv2_self_only",
+    "gatv2_w5",
+    "gatv2_w10",
+    "logistic_regression",
+    "random_forest",
+    "xgboost"
+  ],
+  "model_sha256": "d6dc00de50e196ec4f1689d7f5180ac3d92b9e8bf4974264af104562f655b0a1",
+  "primary_window_predeclared": true,
+  "protocol_sha256": "bd235df12201feb9ce43f87fde433dc764029f6cbaa8bf88756e496e2162b63e",
+  "selected_epoch": 3,
+  "selection_partition": "validation",
+  "validation_macro_f1": 0.9999289369016138
+}

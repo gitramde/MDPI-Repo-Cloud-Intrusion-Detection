@@ -1,0 +1,22 @@
+{
+  "OR": "Existing Phase4A RF and Phase7 AE paired caps .01/.005/.001; mixed calibration; no 5% saved RF threshold",
+  "OR_ranking": "ROC-AUC/PR-AUC/AP computed on binary decision only; not continuous risk ranking",
+  "alphas": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "caps": [
+    0.05,
+    0.01,
+    0.005,
+    0.001
+  ],
+  "model_retraining": false,
+  "normalization": "A_norm=count(benign validation AE scores <= score)/N; right ECDF; ties share upper rank; tails 0/1",
+  "primary": "Benign validation only; >= threshold; nextafter conservative order statistic",
+  "secondary": "Maximum macro-F1; validation labels including Infilteration; ties choose higher threshold",
+  "seed": 42,
+  "selection": "Report all primary rules; no test selection; no development winner selected",
+  "visualization": "Seed42 uniform sample up to 30000 rows per group; correlations use all group rows"
+}

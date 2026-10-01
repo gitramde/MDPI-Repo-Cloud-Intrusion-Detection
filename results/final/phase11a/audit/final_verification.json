@@ -1,0 +1,14 @@
+{
+  "cohort_equality": true,
+  "completed_required_fits": 35,
+  "completed_seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "completed_self_only_fits": 0,
+  "independent_confusion_and_metric_recomputation": true,
+  "status": "PASS"
+}

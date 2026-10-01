@@ -1,0 +1,25 @@
+{
+  "config_sha256": "5e83fb814608a0104a29e6d35669bad0ef1477d64a3e04ee4b8c47d0e7402681",
+  "models": {
+    "logistic_regression": {
+      "selected_step": 5,
+      "sha256": "335f72845a40092a1d7f32fb2b394b1dad676b8c9a3eeea051abb914dbdc6b3e"
+    },
+    "mlp": {
+      "selected_step": 1,
+      "sha256": "2ebbecc8cadc315455fcbf527ae45d206aff6fabffc80e008ddb11299f89a1ad"
+    },
+    "random_forest": {
+      "selected_step": 64,
+      "sha256": "99c2c7d4d19b1d940115c445eb26170bb72b9cf5b5fcc8008b2eccd09532730d"
+    },
+    "xgboost": {
+      "selected_step": 40,
+      "sha256": "b8603b8faa3b888077a9a315df07383c8e613f0724ce6ac637f200b54fa6cb87"
+    }
+  },
+  "phase": "development",
+  "seed": 42,
+  "selection_partition": "validation",
+  "threshold": 0.5
+}

@@ -1,0 +1,130 @@
+{
+  "all_original_hashes_unchanged": true,
+  "all_raw_rows_accounted_for": true,
+  "implementation_sha256": {
+    "__init__.py": "19792a19bee90a318f275ac9cd21e3c2f313bc4084314a4626e01f65e867da59",
+    "clean.py": "20c1d1ee9e029813ed36ed9aee94d4de9629d3bb4301be811f6d7c001b2264a6",
+    "common.py": "fc1d9b367cfab7ae6193b5c0bc9334fe7dc1bee0195b206d605e8badd321c2be",
+    "pipeline.py": "cc7e7bda99472c04609af3bf4a3f741828533468981bc2b3bfef051628e05e7b",
+    "preprocess.py": "6567dac27eff87515d3a7ef8d556aa4d966773c158dc53c55aa7a1d8878cb13d",
+    "report.py": "6724acb7d7602653891e1bcfd0ac82d5287f2624870548c51c7628072c5761ae",
+    "split.py": "bed22301ee057622a148afd0f782313363f3449ec2702c01e470ef083a2db561",
+    "test_baseline.py": "dc4016c92354d37202a193aebd2081807399b0589f589c3a3814388bc568e304",
+    "verify.py": "e99dc46272e73a7504fe88bc2267b8c732d8f839f50ea4b5bb5e82d60dc901cc"
+  },
+  "model_training_performed": false,
+  "partitions": [
+    {
+      "membership_matches_features": true,
+      "partition": "train",
+      "row_key_sha256": "dbcc36bc586469873dbab4b3b59f7e986bdda988126d84403dd6077887748468",
+      "rows": 12795136
+    },
+    {
+      "membership_matches_features": true,
+      "partition": "validation",
+      "row_key_sha256": "1973ac998b07077eb4d4f9b3f670cd6368fe38b4a992a3a359d72b2f9bc89155",
+      "rows": 1652943
+    },
+    {
+      "membership_matches_features": true,
+      "partition": "test",
+      "row_key_sha256": "5bf729e43354a451deb6f4d4247b77322436aa1025933ddbe472b1f0bead70d3",
+      "rows": 1374143
+    }
+  ],
+  "preprocessing_fitted_on_train_only": true,
+  "raw_files_verified": [
+    {
+      "all_raw_rows_accounted_for": true,
+      "chronology_verified": true,
+      "filename": "Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv",
+      "raw_sha256": "acff8bc61376ee031d80878ee6099e0b1a87a1bd711d8068298421418c9f8147",
+      "raw_unchanged": true,
+      "temporal_rows": 822942
+    },
+    {
+      "all_raw_rows_accounted_for": true,
+      "chronology_verified": true,
+      "filename": "Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv",
+      "raw_sha256": "fa2947a8256d81ee9103ae16139d62d0e17aa23e696ee80d9e76fb51c01c9c4b",
+      "raw_unchanged": true,
+      "temporal_rows": 1046154
+    },
+    {
+      "all_raw_rows_accounted_for": true,
+      "chronology_verified": true,
+      "filename": "Friday-16-02-2018_TrafficForML_CICFlowMeter.csv",
+      "raw_sha256": "1a4919faa0c49c7af97230b0c2d076eba23ee6dd81103a3801d51ac316355d8b",
+      "raw_unchanged": true,
+      "temporal_rows": 900988
+    },
+    {
+      "all_raw_rows_accounted_for": true,
+      "chronology_verified": true,
+      "filename": "Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv",
+      "raw_sha256": "7287a4d7740a1dddbf330ceb2beb6a4889d33ba63674558a68b5eb50d16711df",
+      "raw_unchanged": true,
+      "temporal_rows": 7948746
+    },
+    {
+      "all_raw_rows_accounted_for": true,
+      "chronology_verified": true,
+      "filename": "Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv",
+      "raw_sha256": "a5f4a1c2689e0aa6566c03a58466de9c407c0be0cbd3cc69306544026611be04",
+      "raw_unchanged": true,
+      "temporal_rows": 1031018
+    },
+    {
+      "all_raw_rows_accounted_for": true,
+      "chronology_verified": true,
+      "filename": "Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv",
+      "raw_sha256": "da33c927018274f9d49b145baa00e4ce0526c25b3b890b34c489e247b5e24544",
+      "raw_unchanged": true,
+      "temporal_rows": 1045288
+    },
+    {
+      "all_raw_rows_accounted_for": true,
+      "chronology_verified": true,
+      "filename": "Friday-23-02-2018_TrafficForML_CICFlowMeter.csv",
+      "raw_sha256": "d0a7f5059d9823b6e9b392b759e306481a3502d190dea7a1b5502ae079ea069b",
+      "raw_unchanged": true,
+      "temporal_rows": 1045961
+    },
+    {
+      "all_raw_rows_accounted_for": true,
+      "chronology_verified": true,
+      "filename": "Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv",
+      "raw_sha256": "f15e2a12304446058a0186c8ad67de2bd15735a9ba5c70c9a1f4c4242ab06771",
+      "raw_unchanged": true,
+      "temporal_rows": 606982
+    },
+    {
+      "all_raw_rows_accounted_for": true,
+      "chronology_verified": true,
+      "filename": "Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv",
+      "raw_sha256": "b0534c5d7d8b41e03df71c6966c995d116a8ed28e61f377c8b14cdf5d28f4edf",
+      "raw_unchanged": true,
+      "temporal_rows": 331027
+    },
+    {
+      "all_raw_rows_accounted_for": true,
+      "chronology_verified": true,
+      "filename": "Friday-02-03-2018_TrafficForML_CICFlowMeter.csv",
+      "raw_sha256": "d96f38e7496aba83475031e6fb8c6fdf1abf6aa1b71325a917798f3c7de93de1",
+      "raw_unchanged": true,
+      "temporal_rows": 1043116
+    }
+  ],
+  "same_preprocessing_applied_to_all_partitions": true,
+  "status": "PASS",
+  "totals": {
+    "cleaned_rows": 15822236,
+    "exact_nonheader_duplicates": 410707,
+    "raw_rows": 16233002,
+    "repeated_headers": 59,
+    "temporal_exclusions": 14,
+    "temporal_rows": 15822222,
+    "year_1970_temporal_exclusions": 14
+  }
+}

@@ -1,0 +1,12 @@
+filename,date,cleaned_rows,exact_nonheader_duplicates,raw_rows,repeated_headers,temporal_exclusions,temporal_rows,year_1970_temporal_exclusions
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-14,822947,225628,1048575,0,5,822942,5
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-15,1046154,2421,1048575,0,0,1046154,0
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,900988,147586,1048575,1,0,900988,0
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-20,7948746,2,7948748,0,0,7948746,0
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-21,1031018,17557,1048575,0,0,1031018,0
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,1045297,3278,1048575,0,9,1045288,9
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,1045961,2614,1048575,0,0,1045961,0
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-28,606982,6089,613104,33,0,606982,0
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-01,331027,73,331125,25,0,331027,0
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-02,1043116,5459,1048575,0,0,1043116,0
+ALL,,15822236,410707,16233002,59,14,15822222,14

@@ -1,0 +1,36 @@
+{
+  "benign_validation_score_sha256": "9a73d031110b3dd1332bd7bbb3f53bea45c6c3716bfb9722fc0d0416046e0447",
+  "benign_validation_selection_seconds": 19.810633100009,
+  "config": {
+    "gradient_clip_norm": 10.0,
+    "hidden_layers": [
+      128,
+      64,
+      32,
+      64,
+      128
+    ],
+    "isolation_forest": null,
+    "name": "autoencoder_A",
+    "seed": 42
+  },
+  "executed_epochs": 4,
+  "model_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\anomaly_v1\\models\\autoencoder_A.pt",
+  "model_sha256": "292f49dd1cde3a278836da34a81af20de032a51020475286c58af2aed0f49de3",
+  "model_size_bytes": 170386,
+  "parameters": 41456,
+  "peak_memory_bytes": 4645818368,
+  "protocol_sha256": "923a58291ca8ad9ebfedfacec03caf08b0fec98d811730c03a6073bfe3295b83",
+  "selected_benign_validation_mse": 0.12241921330179013,
+  "selected_epoch": 3,
+  "software": {
+    "numpy": "2.1.3",
+    "python": "3.13.5",
+    "threads": 2,
+    "torch": "2.6.0+cpu"
+  },
+  "stage_seconds": 344.36872170000424,
+  "status": "complete",
+  "training_rows": 10885643,
+  "training_seconds": 318.97560100000555
+}

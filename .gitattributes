@@ -1,0 +1,4 @@
+# Preserve exact bytes of frozen evidence and provenance.
+experiments/final_spec/** -text
+results/final/** -text
+results/figures/** -text

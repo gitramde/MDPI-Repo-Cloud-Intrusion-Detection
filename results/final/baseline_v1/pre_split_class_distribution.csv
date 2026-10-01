@@ -1,0 +1,88 @@
+attack_class,filename,file_date,stage,records
+Benign,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-14,cleaned_before_temporal_exclusion,666273
+Benign,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-14,raw,667626
+Benign,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-14,temporal_eligible,666268
+FTP-BruteForce,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-14,cleaned_before_temporal_exclusion,39352
+FTP-BruteForce,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-14,raw,193360
+FTP-BruteForce,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-14,temporal_eligible,39352
+SSH-Bruteforce,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-14,cleaned_before_temporal_exclusion,117322
+SSH-Bruteforce,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-14,raw,187589
+SSH-Bruteforce,Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-14,temporal_eligible,117322
+Benign,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-15,cleaned_before_temporal_exclusion,994414
+Benign,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-15,raw,996077
+Benign,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-15,temporal_eligible,994414
+DoS attacks-GoldenEye,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-15,cleaned_before_temporal_exclusion,41455
+DoS attacks-GoldenEye,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-15,raw,41508
+DoS attacks-GoldenEye,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-15,temporal_eligible,41455
+DoS attacks-Slowloris,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-15,cleaned_before_temporal_exclusion,10285
+DoS attacks-Slowloris,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-15,raw,10990
+DoS attacks-Slowloris,Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-15,temporal_eligible,10285
+Benign,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,cleaned_before_temporal_exclusion,446653
+Benign,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,raw,446772
+Benign,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,temporal_eligible,446653
+DoS attacks-Hulk,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,cleaned_before_temporal_exclusion,434873
+DoS attacks-Hulk,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,raw,461912
+DoS attacks-Hulk,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,temporal_eligible,434873
+DoS attacks-SlowHTTPTest,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,cleaned_before_temporal_exclusion,19462
+DoS attacks-SlowHTTPTest,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,raw,139890
+DoS attacks-SlowHTTPTest,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,temporal_eligible,19462
+Label,Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-16,raw,1
+Benign,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-20,cleaned_before_temporal_exclusion,7372555
+Benign,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-20,raw,7372557
+Benign,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-20,temporal_eligible,7372555
+DDoS attacks-LOIC-HTTP,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-20,cleaned_before_temporal_exclusion,576191
+DDoS attacks-LOIC-HTTP,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-20,raw,576191
+DDoS attacks-LOIC-HTTP,Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-20,temporal_eligible,576191
+Benign,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-21,cleaned_before_temporal_exclusion,360827
+Benign,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-21,raw,360833
+Benign,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-21,temporal_eligible,360827
+DDOS attack-HOIC,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-21,cleaned_before_temporal_exclusion,668461
+DDOS attack-HOIC,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-21,raw,686012
+DDOS attack-HOIC,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-21,temporal_eligible,668461
+DDOS attack-LOIC-UDP,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-21,cleaned_before_temporal_exclusion,1730
+DDOS attack-LOIC-UDP,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-21,raw,1730
+DDOS attack-LOIC-UDP,Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-21,temporal_eligible,1730
+Benign,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,cleaned_before_temporal_exclusion,1044935
+Benign,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,raw,1048213
+Benign,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,temporal_eligible,1044926
+Brute Force -Web,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,cleaned_before_temporal_exclusion,249
+Brute Force -Web,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,raw,249
+Brute Force -Web,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,temporal_eligible,249
+Brute Force -XSS,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,cleaned_before_temporal_exclusion,79
+Brute Force -XSS,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,raw,79
+Brute Force -XSS,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,temporal_eligible,79
+SQL Injection,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,cleaned_before_temporal_exclusion,34
+SQL Injection,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,raw,34
+SQL Injection,Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-22,temporal_eligible,34
+Benign,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,cleaned_before_temporal_exclusion,1045395
+Benign,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,raw,1048009
+Benign,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,temporal_eligible,1045395
+Brute Force -Web,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,cleaned_before_temporal_exclusion,362
+Brute Force -Web,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,raw,362
+Brute Force -Web,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,temporal_eligible,362
+Brute Force -XSS,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,cleaned_before_temporal_exclusion,151
+Brute Force -XSS,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,raw,151
+Brute Force -XSS,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,temporal_eligible,151
+SQL Injection,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,cleaned_before_temporal_exclusion,53
+SQL Injection,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,raw,53
+SQL Injection,Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-23,temporal_eligible,53
+Benign,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-28,cleaned_before_temporal_exclusion,538125
+Benign,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-28,raw,544200
+Benign,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-28,temporal_eligible,538125
+Infilteration,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-28,cleaned_before_temporal_exclusion,68857
+Infilteration,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-28,raw,68871
+Infilteration,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-28,temporal_eligible,68857
+Label,Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,2018-02-28,raw,33
+Benign,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-01,cleaned_before_temporal_exclusion,237987
+Benign,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-01,raw,238037
+Benign,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-01,temporal_eligible,237987
+Infilteration,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-01,cleaned_before_temporal_exclusion,93040
+Infilteration,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-01,raw,93063
+Infilteration,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-01,temporal_eligible,93040
+Label,Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-01,raw,25
+Benign,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-02,cleaned_before_temporal_exclusion,760806
+Benign,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-02,raw,762384
+Benign,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-02,temporal_eligible,760806
+Bot,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-02,cleaned_before_temporal_exclusion,282310
+Bot,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-02,raw,286191
+Bot,Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,2018-03-02,temporal_eligible,282310

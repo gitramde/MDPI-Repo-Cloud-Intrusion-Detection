@@ -1,0 +1,10 @@
+{
+  "dropout": 0.2,
+  "heads": 4,
+  "hidden": 128,
+  "kind": "gatv2",
+  "layers": 2,
+  "name": "gatv2_w5",
+  "seed": 42,
+  "window_minutes": 5
+}

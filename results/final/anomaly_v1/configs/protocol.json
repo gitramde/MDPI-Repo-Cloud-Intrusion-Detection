@@ -1,0 +1,57 @@
+{
+  "activation": "ReLU",
+  "architectures": {
+    "autoencoder_A": [
+      128,
+      64,
+      32,
+      64,
+      128
+    ],
+    "autoencoder_B": [
+      128,
+      32,
+      128
+    ]
+  },
+  "batch_size": 8192,
+  "dropout": 0.0,
+  "isolation_forest": {
+    "bootstrap": false,
+    "contamination": "auto",
+    "max_features": 1.0,
+    "max_samples": 256,
+    "n_estimators": 100,
+    "n_jobs": 2,
+    "random_state": 42,
+    "sample_size": 250000,
+    "sampling": "uniform without replacement from benign TRAIN IDs using NumPy seed 42"
+  },
+  "learning_rate": 0.001,
+  "loss": "mean squared reconstruction error",
+  "max_epochs": 4,
+  "min_relative_improvement": 0.0001,
+  "optimizer": "AdamW",
+  "patience": 2,
+  "phase": "development",
+  "preprocessing": "reuse baseline_v1 train-fitted preprocessing unchanged; it was fitted on all TRAIN classes, not benign-only",
+  "protocol_A_caps": [
+    0.05,
+    0.01,
+    0.005,
+    0.001
+  ],
+  "protocol_A_rule": "conservative upper order statistic with >= detection; nextafter boundary handles ties",
+  "protocol_B_objectives": [
+    "maximum_macro_f1",
+    "maximum_binary_f1"
+  ],
+  "read_block_size": 65536,
+  "score": "per-record feature-mean squared reconstruction error; higher is more anomalous",
+  "seed": 42,
+  "selection": "lowest benign-validation mean reconstruction error; malicious validation scores unavailable to selection",
+  "temporal_autoencoder": "not run; optional secondary scope deferred",
+  "threads": 2,
+  "training_population": "all benign TRAIN rows; no AE subsampling",
+  "weight_decay": 1e-05
+}

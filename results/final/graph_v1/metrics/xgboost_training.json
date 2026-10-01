@@ -1,0 +1,40 @@
+{
+  "config": {
+    "early_stopping_rounds": 20,
+    "kind": "conventional",
+    "maximum_boost_rounds": 150,
+    "maximum_passes": null,
+    "name": "xgboost",
+    "parameters": {
+      "eta": 0.05,
+      "eval_metric": "logloss",
+      "max_depth": 5,
+      "nthread": 2,
+      "objective": "binary:logistic",
+      "seed": 42,
+      "tree_method": "hist"
+    },
+    "seed": 42,
+    "weighting": "training-target class balance; XGBoost negative/positive scale_pos_weight"
+  },
+  "model_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\results\\graph_v1\\models\\xgboost.ubj",
+  "model_sha256": "55b7b84d6b219c6519459e489e9fe1813bef66c9961572b7f45d4f7af90872a7",
+  "model_size_bytes": 221256,
+  "peak_memory_bytes": 1067765760,
+  "preprocessing_sha256": "ba9b94d60b81cfd664ee1a70f938fbfe17f5d137b347b8cda0a59bfbbf7082ae",
+  "protocol_sha256": "bd235df12201feb9ce43f87fde433dc764029f6cbaa8bf88756e496e2162b63e",
+  "selected_epoch": 150,
+  "selected_validation_macro_f1": 0.9999407773346445,
+  "software": {
+    "python": "3.13.5",
+    "sklearn": "1.7.2",
+    "xgboost": "3.0.5"
+  },
+  "stage_seconds": 11.385535099998378,
+  "status": "complete",
+  "training_seconds": 11.024192699998821,
+  "training_targets": 172984,
+  "training_time_note": "XGBoost training includes internal validation early-stopping evaluation",
+  "validation_prediction_sha256": "6bf0b4bd94a16fd6877829e48376608df596392f28639bbf0da0f09f1eaec792",
+  "validation_selection_seconds": 0.36134239999955753
+}

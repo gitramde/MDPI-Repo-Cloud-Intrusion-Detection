@@ -1,0 +1,6 @@
+context_length,control,d_model,dropout,heads,layers,length,name,position_offset,seed,selected,selected_epoch,executed_epochs,validation_macro_f1,training_seconds,parameters
+16,False,64,0.1,4,2,16,transformer_L16_d64_n2_p01,0,42,False,2,3,0.5437073944447799,81.78456749999896,72321
+32,False,64,0.1,4,2,32,transformer_L32_d64_n2_p01,0,42,False,1,3,0.5433481918378783,170.32396139999946,72321
+64,False,64,0.1,4,2,64,transformer_L64_d64_n2_p01,0,42,True,1,3,0.5445729666663383,346.5391631000002,72321
+64,False,128,0.2,4,3,64,transformer_L64_d128_n3_p02,0,42,False,1,3,0.5412084250379443,1006.0055440999968,408193
+64,True,64,0.1,4,2,1,transformer_L1_control,63,42,False,2,3,0.5416722916967338,16.940877699995326,72321

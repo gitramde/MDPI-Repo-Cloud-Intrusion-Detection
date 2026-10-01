@@ -1,0 +1,12 @@
+{
+  "context_length": 64,
+  "control": false,
+  "d_model": 128,
+  "dropout": 0.2,
+  "heads": 4,
+  "layers": 3,
+  "length": 64,
+  "name": "transformer_L64_d128_n3_p02",
+  "position_offset": 0,
+  "seed": 42
+}

@@ -1,0 +1,5 @@
+model,protocol,criterion,threshold
+autoencoder_B,B_label_aware,maximum_macro_f1,0.14403971626160014
+autoencoder_B,B_label_aware,maximum_binary_f1,0.012906889129616624
+isolation_forest,B_label_aware,maximum_macro_f1,0.5779130511261703
+isolation_forest,B_label_aware,maximum_binary_f1,0.4285798256609946

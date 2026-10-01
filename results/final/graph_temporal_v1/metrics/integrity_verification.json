@@ -1,0 +1,18 @@
+{
+  "independent_output_verification_sha256": "99acb6ce2f5e1ec3b45c87343bd7e1c7c409b3c31509ba9f9c88a89729a7817a",
+  "protected_files": 480,
+  "source_sha256": {
+    "__init__.py": "90b8bd5aef8ec8cf9ec3475ee88825d09cba0f7abc48920acc8d8b451a315530",
+    "evaluate.py": "13be7bc09d2fcb6243df564bf0f2b174ad41b04ddd06cfbd61e6cfb19fd6e805",
+    "figures.py": "5c9b5c3512da11394a70b6cb5e6102bfc1b63dd2e75959c2f5f3f1c1448d2d1b",
+    "finalize.py": "be15670721117d6b7b2371728329ded5be7438524719e6ff95d4398e58064da3",
+    "model.py": "afca20fb2492c361c369968ad63ca9033807fc946eb77561036f97404e79dcb5",
+    "prepare.py": "09927167b736fd347b9d700fd5bdcff025f00e826326c3b7eb9be5df5bf88dbd",
+    "report.py": "9a8b518064266b53971a6b3d728ad171727178833fc29a893ab423a3babb93c9",
+    "run.py": "32d2f1f3b3ca8fac1183ca135a029cae939bfd45c7742f62d2731579c0ee44b7",
+    "test_temporal.py": "64de35f8287c6f321ce3e8ace6dfaccc03ce19f3ac6e38e29c73e2fb4d06e692",
+    "train.py": "b0051415a942c0bd75d95536c23b0ca7d541a1072cb2197eb52bc19a57d7249c",
+    "verify.py": "c37aab2c8b5667e39e6a01b83acc770999dd0e92242a81be9ec8fb1357623bb2"
+  },
+  "status": "PASS"
+}

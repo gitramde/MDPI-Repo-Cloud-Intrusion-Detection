@@ -1,0 +1,230 @@
+{
+  "approved": false,
+  "attack_episodes": [
+    {
+      "active_minutes": 16,
+      "benign": 215184,
+      "end_exclusive": "2018-02-20 01:30:00",
+      "malicious": 797,
+      "start": "2018-02-20 01:14:00"
+    },
+    {
+      "active_minutes": 64,
+      "benign": 939885,
+      "end_exclusive": "2018-02-20 11:17:00",
+      "malicious": 575394,
+      "start": "2018-02-20 10:13:00"
+    }
+  ],
+  "boundaries": [
+    "2018-02-20 10:30:00",
+    "2018-02-20 11:00:00"
+  ],
+  "cleaning": "Reuse exact frozen temporal-eligible source_row membership; no recleaning or sampling",
+  "endpoint_missing_counts": {
+    "Dst IP": 0,
+    "Dst Port": 0,
+    "Protocol": 0,
+    "Src IP": 0,
+    "Src Port": 0
+  },
+  "endpoint_recovery": "Read raw identifiers only for source_row IDs retained in the verified cleaned parquet",
+  "inputs": {
+    "cleaned_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\baseline_v1\\cleaned\\Thuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet",
+    "cleaned_sha256": "13f86441342466c1e4bf0a01cf5d7b04b22f6138b392bda114eb7b52fe24cd93",
+    "raw_path": "C:\\Users\\ramku\\Documents\\codebase\\aigt-ctd\\data\\raw\\Processed Traffic Data for ML Algorithms\\Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv",
+    "raw_sha256": "7287a4d7740a1dddbf330ceb2beb6a4889d33ba63674558a68b5eb50d16711df"
+  },
+  "membership_hash_encoding": "SHA256 of source_row int64 little-endian sequence in frozen chronological order, scoped to source_file",
+  "next_stage_requirements": [
+    "Explicit split review/approval before preprocessing or training",
+    "Fit imputation/scaling only on approved Feb-20 TRAIN; do not reuse baseline_v1 fitted preprocessing",
+    "Keep identifiers separate; raw IPs, labels and timestamps are not numeric model features",
+    "Causal node history and message-passing neighborhoods must exclude later flows, including later flows in the same snapshot",
+    "Declare tie handling and historical state policy before fitting",
+    "Matched edge MLP and GATv2 use identical targets, features, splits and preprocessing"
+  ],
+  "partition_rules": {
+    "test": "timestamp >= 2018-02-20 11:00:00",
+    "train": "timestamp < 2018-02-20 10:30:00",
+    "validation": "2018-02-20 10:30:00 <= timestamp < 2018-02-20 11:00:00"
+  },
+  "partitions": [
+    {
+      "benign": 5359206,
+      "malicious": 147953,
+      "malicious_fraction": 0.02686557624357677,
+      "partition": "train",
+      "rows": 5507159,
+      "source_row_sequence_sha256": "19472fd02d7d4b8263b89a4c20ecf30b7938611881c42cabb169bfbf7fad3866",
+      "timestamp_max": "2018-02-20 10:29:59",
+      "timestamp_min": "2018-02-20 01:00:00"
+    },
+    {
+      "benign": 450793,
+      "malicious": 276465,
+      "malicious_fraction": 0.3801470729782278,
+      "partition": "validation",
+      "rows": 727258,
+      "source_row_sequence_sha256": "b97eb04f25514b1ee0737d7b85d1cf450169bf0bdaccb5e7ade5abd5d018c93f",
+      "timestamp_max": "2018-02-20 10:59:59",
+      "timestamp_min": "2018-02-20 10:30:00"
+    },
+    {
+      "benign": 1562556,
+      "malicious": 151773,
+      "malicious_fraction": 0.08853201456663219,
+      "partition": "test",
+      "rows": 1714329,
+      "source_row_sequence_sha256": "094fbef8f988d587a10d7e0f91ac2716688a1df01e294e78caaac99b4937aaaf",
+      "timestamp_max": "2018-02-20 12:59:59",
+      "timestamp_min": "2018-02-20 11:00:00"
+    }
+  ],
+  "primary_window_minutes": 1,
+  "purpose": "within-day graph contribution; not unseen-attack or zero-day evaluation",
+  "rationale": "Timeline-informed proposal: all partitions include both classes and a portion of the main attack period; boundaries align with 1/5/10-minute windows. Not selected from model performance.",
+  "seed": 42,
+  "sensitivity_window_minutes": [
+    5,
+    10
+  ],
+  "simple_chronological_candidates": [
+    {
+      "all_malicious_in_one_partition": false,
+      "both_classes_in_all_partitions": false,
+      "boundaries": [
+        "2018-02-20 10:40:00",
+        "2018-02-20 11:50:00"
+      ],
+      "name": "elapsed_80_10_10",
+      "partitions": [
+        {
+          "benign": 5514050,
+          "malicious": 240089,
+          "malicious_fraction": 0.04172457425863366,
+          "partition": "train",
+          "rows": 5754139,
+          "source_row_sequence_sha256": "24c3a414290f36dec64959e6c6b21fdd948f9e4ba91024fa2b0dbae911e264ec",
+          "timestamp_max": "2018-02-20 10:39:59",
+          "timestamp_min": "2018-02-20 01:00:00"
+        },
+        {
+          "benign": 1040616,
+          "malicious": 336102,
+          "malicious_fraction": 0.24413278536345134,
+          "partition": "validation",
+          "rows": 1376718,
+          "source_row_sequence_sha256": "eb3a4dbfe471f59ba30e85616f6f13bf0bc609e29e0a6ffa52f5077caad2293e",
+          "timestamp_max": "2018-02-20 11:49:59",
+          "timestamp_min": "2018-02-20 10:40:00"
+        },
+        {
+          "benign": 817889,
+          "malicious": 0,
+          "malicious_fraction": 0.0,
+          "partition": "test",
+          "rows": 817889,
+          "source_row_sequence_sha256": "d21d0b3f50cfcc037f1c217754444bfae26dd8a1d1aa86a4cc0c8c189a12dc64",
+          "timestamp_max": "2018-02-20 12:59:59",
+          "timestamp_min": "2018-02-20 11:50:00"
+        }
+      ]
+    },
+    {
+      "all_malicious_in_one_partition": false,
+      "both_classes_in_all_partitions": true,
+      "boundaries": [
+        "2018-02-20 09:20:00",
+        "2018-02-20 11:10:00"
+      ],
+      "name": "elapsed_70_15_15",
+      "partitions": [
+        {
+          "benign": 4342838,
+          "malicious": 797,
+          "malicious_fraction": 0.0001834868721704287,
+          "partition": "train",
+          "rows": 4343635,
+          "source_row_sequence_sha256": "b1918cef5ea5eecdd07f1f089eaa30b41dea24aecf053f3ad381d63771b16261",
+          "timestamp_max": "2018-02-20 09:19:59",
+          "timestamp_min": "2018-02-20 01:00:00"
+        },
+        {
+          "benign": 1608882,
+          "malicious": 515649,
+          "malicious_fraction": 0.24271192088983404,
+          "partition": "validation",
+          "rows": 2124531,
+          "source_row_sequence_sha256": "0cbf25f54ad26404a6e498bd5f8296cd4af32e27caa0d2656d2e99ebf252f5ee",
+          "timestamp_max": "2018-02-20 11:09:59",
+          "timestamp_min": "2018-02-20 09:20:00"
+        },
+        {
+          "benign": 1420835,
+          "malicious": 59745,
+          "malicious_fraction": 0.04035242945332235,
+          "partition": "test",
+          "rows": 1480580,
+          "source_row_sequence_sha256": "749fe5261902505662aac9661fd81b6795f71a4caacff9ce48d1e33e18c1f96f",
+          "timestamp_max": "2018-02-20 12:59:59",
+          "timestamp_min": "2018-02-20 11:10:00"
+        }
+      ]
+    },
+    {
+      "all_malicious_in_one_partition": false,
+      "both_classes_in_all_partitions": true,
+      "boundaries": [
+        "2018-02-20 08:10:00",
+        "2018-02-20 10:40:00"
+      ],
+      "name": "elapsed_60_20_20",
+      "partitions": [
+        {
+          "benign": 3597227,
+          "malicious": 797,
+          "malicious_fraction": 0.00022151047352658016,
+          "partition": "train",
+          "rows": 3598024,
+          "source_row_sequence_sha256": "4049758452c25caef20e78be41c285ab8ab1e0270f85d6a81927c012fef54227",
+          "timestamp_max": "2018-02-20 08:09:57",
+          "timestamp_min": "2018-02-20 01:00:00"
+        },
+        {
+          "benign": 1916823,
+          "malicious": 239292,
+          "malicious_fraction": 0.11098294849764508,
+          "partition": "validation",
+          "rows": 2156115,
+          "source_row_sequence_sha256": "beb000be500169ae3af972b2ba3b74e4319ba98c506ad39647a460812eb25344",
+          "timestamp_max": "2018-02-20 10:39:59",
+          "timestamp_min": "2018-02-20 08:10:00"
+        },
+        {
+          "benign": 1858505,
+          "malicious": 336102,
+          "malicious_fraction": 0.15314906040124723,
+          "partition": "test",
+          "rows": 2194607,
+          "source_row_sequence_sha256": "8e48a4e27be8908eb328f221a4b055112592f38df3cf41ed1f997b46cf022837",
+          "timestamp_max": "2018-02-20 12:59:59",
+          "timestamp_min": "2018-02-20 10:40:00"
+        }
+      ]
+    }
+  ],
+  "software_versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "pyarrow": "19.0.0"
+  },
+  "source_file": "Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv",
+  "source_manifest_sha256": "cbdad0dadd1964f461cde88a6c16a400a7a07bb35bb6e9a3dfbec715ef0253a4",
+  "source_row_definition": "1-based CSV data record excluding header; (source_file, source_row) is unique",
+  "status": "PROPOSED_AWAITING_USER_REVIEW",
+  "timeline_sha256": "af13c28aeebcfb6aee98ef3e7d035cb36b36195bb17814dfd8455aaedc13f1ef",
+  "timestamp_policy": "Frozen parsed timestamps; dataset-local naive times, no inferred timezone or AM/PM repair",
+  "training_permitted": false,
+  "window_alignment": "calendar clock, half-open [start,end)"
+}

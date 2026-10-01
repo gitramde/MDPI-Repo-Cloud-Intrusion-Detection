@@ -1,0 +1,106 @@
+{
+  "all_lengths_reported": true,
+  "cohort_manifest_sha256": "2004adf3b83b2d4ccb6e1eb1581c2fdd6b9156fa537f0bd364ff8ec83d300e3c",
+  "frozen_at_utc": "2026-09-21T22:30:40Z",
+  "selection_uses_test": false,
+  "threshold_csv_sha256": "e8608b53c0b82461a1bbd91f35bfffbf45f819d6ece80eb5544c65545e9b91a0",
+  "thresholds": [
+    {
+      "criterion": "fixed_0_5",
+      "model": "edge_mlp",
+      "selection_partition": "validation",
+      "threshold": 0.5
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "model": "edge_mlp",
+      "selection_partition": "validation",
+      "threshold": 0.03797098249197006
+    },
+    {
+      "criterion": "fpr_at_most_0.01",
+      "model": "edge_mlp",
+      "selection_partition": "validation",
+      "threshold": 0.0365968756377697
+    },
+    {
+      "criterion": "fixed_0_5",
+      "model": "gatv2_w1_h128_p2",
+      "selection_partition": "validation",
+      "threshold": 0.5
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "model": "gatv2_w1_h128_p2",
+      "selection_partition": "validation",
+      "threshold": 0.9955880641937256
+    },
+    {
+      "criterion": "fpr_at_most_0.01",
+      "model": "gatv2_w1_h128_p2",
+      "selection_partition": "validation",
+      "threshold": 0.9955880641937256
+    },
+    {
+      "criterion": "fixed_0_5",
+      "model": "gat_transformer_L1",
+      "selection_partition": "validation",
+      "threshold": 0.5
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "model": "gat_transformer_L1",
+      "selection_partition": "validation",
+      "threshold": 0.9946208000183105
+    },
+    {
+      "criterion": "fpr_at_most_0.01",
+      "model": "gat_transformer_L1",
+      "selection_partition": "validation",
+      "threshold": 0.9946208000183105
+    },
+    {
+      "criterion": "fixed_0_5",
+      "model": "gat_transformer_L4",
+      "selection_partition": "validation",
+      "threshold": 0.5
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "model": "gat_transformer_L4",
+      "selection_partition": "validation",
+      "threshold": 0.9948325157165527
+    },
+    {
+      "criterion": "fpr_at_most_0.01",
+      "model": "gat_transformer_L4",
+      "selection_partition": "validation",
+      "threshold": 0.9948325157165527
+    },
+    {
+      "criterion": "fixed_0_5",
+      "model": "gat_transformer_L8",
+      "selection_partition": "validation",
+      "threshold": 0.5
+    },
+    {
+      "criterion": "maximum_macro_f1",
+      "model": "gat_transformer_L8",
+      "selection_partition": "validation",
+      "threshold": 0.9970107078552246
+    },
+    {
+      "criterion": "fpr_at_most_0.01",
+      "model": "gat_transformer_L8",
+      "selection_partition": "validation",
+      "threshold": 0.9970107078552246
+    }
+  ],
+  "validation_predictions": {
+    "edge_mlp": "4825736fe125bd923e530be35a6f6b02ae3acc3f67485e1e9560efd3260f4de5",
+    "gat_transformer_L1": "afb2c058a419d8d731de1a30c3b15375058291bd86afdc493c55b43304f48534",
+    "gat_transformer_L4": "682d6f5764f032623c6e12ecd6b0b566f469d0d4688ae76561ba41f021fd3430",
+    "gat_transformer_L8": "05e3cf6986e1844b0e48e8d9506cbbe2c2da93b53671f8420930220f15d91291",
+    "gatv2_w1_h128_p2": "b6090a61348a6b8b3dd1079f2989ff265275e851487d4be101e750ad24029cab"
+  }
+}
