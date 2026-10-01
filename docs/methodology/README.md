@@ -6,4 +6,4 @@ Preparation and model source retain their original module paths. The final proto
 - [Data audit source](../../src/data)
 - [Baseline preparation source](../../src/baseline)
 - [Final protocol](../../experiments/final_spec/README.md)
-- [Cohort and research-question map](../../archive/docs/reproducibility/MANUSCRIPT_ARTIFACT_MAP.md)
+- [Cohort and research-question map](../../README.md#experimental-cohorts)

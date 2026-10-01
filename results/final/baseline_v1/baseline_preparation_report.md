@@ -68,4 +68,4 @@ The saved preprocessor was reloaded and applied unchanged to every training, val
 | [source_manifest.json](source_manifest.json) | Raw/derived paths, hashes and population counts |
 | [verification.json](verification.json) | PASS: source preservation, conservation, chronology and split/preprocessor integrity |
 
-Cleaned features and exact per-row partition membership are stored under `data/baseline_v1/`, with paths and hashes in the manifests. Reproduction commands and the streaming model-input interface are documented in [BASELINE_PIPELINE.md](../../docs/BASELINE_PIPELINE.md).
+Cleaned features and exact per-row partition membership are stored under `data/baseline_v1/`, with paths and hashes in the manifests. Reproduction commands and the streaming model-input interface are documented in [BASELINE_PIPELINE.md](../../../docs/methodology/BASELINE_PIPELINE.md).

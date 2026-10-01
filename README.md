@@ -64,9 +64,9 @@ benign** and **2.75 million malicious** records.
 The original dataset is not redistributed through this repository.
 Reviewers must acquire the ten CSE-CIC-IDS2018 processed machine-learning CSV
 files separately. The [dataset inventory](results/dataset_summary.csv) identifies
-the source files; the [historical acquisition and audit guide](archive/docs/history/phase1_audit_history.md)
-describes local placement. Derived caches, predictions and model checkpoints
-are also omitted from this document-only artifact.
+the source files, and the [dataset audit notes](results/dataset_audit_notes.md)
+describe the audit scope and local input layout. Derived caches, predictions and
+model checkpoints are also omitted from this document-only artifact.
 
 The data-quality audit identified:
 
